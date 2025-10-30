@@ -1,163 +1,149 @@
-```markdown
-# CodeSense: Aprendizado de Inglês Técnico com IA para Desenvolvedores
+# CodeSense: AI-Powered English Learning for Developers
 
-## 📚 Visão Geral do Projeto
+## 📚 Project Overview
 
-**CodeSense** é um sistema inteligente de *Retrieval-Augmented Generation (RAG)* desenvolvido especificamente para ensinar inglês técnico a desenvolvedores de software. Ao aproveitar documentações e repositórios de código reais, o CodeSense cria um ambiente de aprendizado contextual onde os desenvolvedores podem aprimorar suas habilidades em inglês enquanto interagem com conteúdos técnicos autênticos.
+**CodeSense** is an intelligent Retrieval-Augmented Generation (RAG) system specifically designed to teach technical English to software developers. By leveraging authentic documentation and code repositories, CodeSense creates a contextual learning environment where developers can improve their English skills while engaging with real-world technical content.
 
-## 🎯 Problema
+## 🎯 Problem Statement
 
-Desenvolvedores de software que estão aprendendo inglês frequentemente enfrentam dificuldades com:
-- **Vocabulário técnico** específico de programação e desenvolvimento  
-- **Compreensão de documentações** em inglês  
-- **Comunicação profissional** em equipes de desenvolvimento  
-- **Entendimento contextual** de conceitos técnicos em inglês  
+Software developers learning English often struggle with:
+- **Technical vocabulary** specific to programming and development
+- **Documentation comprehension** in English
+- **Professional communication** in development teams
+- **Contextual understanding** of technical concepts in English
 
-Materiais tradicionais de aprendizado de inglês carecem do contexto técnico necessário aos desenvolvedores, enquanto documentações técnicas não possuem estrutura pedagógica adequada para o ensino de idiomas.
+Traditional English learning materials lack the technical context that developers need, while technical documentation lacks pedagogical structure for language learning.
 
-## ✨ Principais Funcionalidades
+## ✨ Key Features
 
-### 🧠 Processamento Inteligente de Conteúdo
-- **Limpeza Avançada de Texto**: Remove HTML, markdown e código mantendo apenas o conteúdo explicativo  
-- **Filtragem Pedagógica**: Classifica o conteúdo com base em seu valor educacional usando reconhecimento de padrões  
-- **Preservação de Contexto**: Mantém a relevância técnica enquanto foca no aprendizado de idioma  
+### 🧠 Intelligent Content Processing
+- **Advanced Text Cleaning**: Removes HTML, markdown, and code while preserving explanatory content
+- **Pedagogical Filtering**: Scores content based on teaching value using pattern recognition
+- **Context Preservation**: Maintains technical relevance while focusing on language learning
 
-### 🎓 Recursos Educacionais
-- **Extração de Vocabulário**: Identifica termos técnicos para aprendizado direcionado  
-- **Reconhecimento de Padrões Gramaticais**: Destaca estruturas gramaticais em contexto técnico  
-- **Classificação por Nível de Inglês**: Categoriza automaticamente o conteúdo por proficiência (B1, B2, C1)  
-- **Pontuação de Qualidade Didática**: Avalia o conteúdo de 1 a 10 com base em seu valor pedagógico  
+### 🎓 Educational Enhancements
+- **Vocabulary Extraction**: Identifies technical terms for focused learning
+- **Grammar Pattern Recognition**: Highlights grammatical structures in technical context
+- **English Level Classification**: Automatically categorizes content by proficiency (B1, B2, C1)
+- **Teaching Quality Scoring**: Rates content from 1-10 based on pedagogical value
 
-### 🔍 Sistema de Recuperação Inteligente
-- **Busca Semântica**: Combina TF-IDF com pontuações de qualidade didática  
-- **Otimização de Consultas**: Expande e refina consultas com foco no aprendizado  
-- **Suporte Multitecnologia**: Abrange mais de 20 tecnologias, incluindo React, AWS, Docker, TypeScript e outras  
+### 🔍 Smart Retrieval System
+- **Semantic Search**: Combines TF-IDF with teaching quality scores
+- **Query Optimization**: Expands and refines learning-focused queries
+- **Multi-technology Support**: Covers 20+ technologies including React, AWS, Docker, TypeScript, and more
 
-## 🛠️ Arquitetura Técnica
+## 🛠️ Technical Architecture
 
-### Pipeline de Processamento de Dados
+### Data Processing Pipeline
+```
+Raw Documentation → Advanced Cleaning → Explanatory Extraction → Pedagogical Filtering → Enhanced Chunks
 ```
 
-Documentação Bruta → Limpeza Avançada → Extração Explicativa → Filtragem Pedagógica → Chunks Aprimorados
+### RAG System Components
+- **Content Processor**: `EnhancedRAGDataProcessor` with intelligent chunking
+- **Teaching Filter**: `TeachingQualityFilter` with pattern-based scoring
+- **Retrieval Engine**: `EnhancedRAGSystem` with semantic + pedagogical ranking
+- **Query Optimizer**: Automatic query expansion for learning contexts
 
-````
+## 📊 Current Performance
 
-### Componentes do Sistema RAG
-- **Processador de Conteúdo**: `EnhancedRAGDataProcessor` com divisão inteligente de texto  
-- **Filtro de Ensino**: `TeachingQualityFilter` com pontuação baseada em padrões  
-- **Motor de Recuperação**: `EnhancedRAGSystem` com ranqueamento semântico + pedagógico  
-- **Otimização de Consulta**: Expansão automática de consultas em contextos de aprendizado  
+- **✅ 100% Query Success Rate**: 20/20 test queries return relevant results
+- **🎯 High-Quality Content**: 413 pedagogical chunks (from 1,637 total)
+- **📈 Teaching Quality**: Average score of 3.51/10 across all content
+- **🌍 Technology Coverage**: 20+ technologies with balanced representation
+- **🎓 Level Distribution**: 387 B1, 24 B2, 2 C1 level chunks
 
-## 📊 Desempenho Atual
+## 🚀 Getting Started
 
-- **✅ 100% de Sucesso em Consultas**: 20/20 consultas retornam resultados relevantes  
-- **🎯 Conteúdo de Alta Qualidade**: 413 *chunks* pedagógicos (de 1.637 no total)  
-- **📈 Qualidade Didática Média**: 3,51/10 em todo o conteúdo  
-- **🌍 Cobertura Tecnológica**: 20+ tecnologias representadas  
-- **🎓 Distribuição por Nível**: 387 B1, 24 B2, 2 C1  
-
-## 🚀 Primeiros Passos
-
-### Pré-requisitos
+### Prerequisites
 ```python
-# Dependências principais
+# Core dependencies
 Python 3.8+
 scikit-learn
 numpy
-````
+```
 
-### Instalação
-
+### Installation
 ```bash
 git clone https://github.com/your-username/codesense.git
 cd codesense
 pip install -r requirements.txt
 ```
 
-### Uso Básico
-
+### Basic Usage
 ```python
 from codesense import EnhancedRAGDataProcessor, EnhancedRAGSystem
 
-# Inicializar e processar conteúdo
+# Initialize and process content
 processor = EnhancedRAGDataProcessor()
 learning_chunks = processor.process_for_english_learning()
 
-# Criar o sistema RAG
+# Create RAG system
 rag_system = EnhancedRAGSystem(learning_chunks)
 
-# Consultar conteúdo de aprendizado
+# Query for learning content
 results = rag_system.query_learning_content(
     "How to define a function in programming?",
     n_results=3
 )
 ```
 
-## 📁 Estrutura do Projeto
-
+## 📁 Project Structure
 ```
 codesense/
-├── processors/          # Módulos de processamento de conteúdo
-├── filters/             # Filtros pedagógicos
-├── retrieval/           # Componentes do sistema RAG
-├── data/                # Documentação técnica
-├── outputs/             # Chunks processados para aprendizado
-└── tests/               # Testes automatizados
+├── processors/          # Content processing modules
+├── filters/            # Pedagogical filtering
+├── retrieval/          # RAG system components
+├── data/              # Technical documentation
+├── outputs/           # Processed learning chunks
+└── tests/             # Test suites
 ```
 
-## 🎯 Casos de Uso
+## 🎯 Use Cases
 
-### Para Desenvolvedores
+### For Developers
+- **Technical Vocabulary Building**: Learn programming terms in context
+- **Documentation Reading Practice**: Improve comprehension of technical docs
+- **Professional Communication**: Study how concepts are explained in English
+- **Interview Preparation**: Practice technical explanations in English
 
-* **Construção de Vocabulário Técnico**: Aprenda termos de programação em contexto
-* **Prática de Leitura de Documentação**: Melhore a compreensão de textos técnicos
-* **Comunicação Profissional**: Estude como conceitos são explicados em inglês
-* **Preparação para Entrevistas**: Pratique explicações técnicas em inglês
+### For Educational Institutions
+- **Custom Learning Paths**: Technology-specific English courses
+- **Curriculum Development**: Authentic technical content for language classes
+- **Assessment Tools**: Evaluate technical English proficiency
 
-### Para Instituições de Ensino
+## 🔮 Future Roadmap
 
-* **Trilhas de Aprendizado Personalizadas**: Cursos de inglês técnico por tecnologia
-* **Desenvolvimento Curricular**: Conteúdo técnico autêntico para aulas de idioma
-* **Ferramentas de Avaliação**: Avalie a proficiência em inglês técnico
+### Short-term Goals
+- [ ] Web interface for interactive learning
+- [ ] Expanded technology coverage
+- [ ] User progress tracking
+- [ ] Exercise generation from content
 
-## 🔮 Roteiro Futuro
+### Long-term Vision
+- [ ] Multi-modal learning (code + explanation)
+- [ ] Personalized learning paths
+- [ ] Collaborative learning features
+- [ ] Integration with development environments
 
-### Objetivos de Curto Prazo
+## 🤝 Contributing
 
-* [ ] Interface web para aprendizado interativo
-* [ ] Expansão da cobertura tecnológica
-* [ ] Rastreamento de progresso do usuário
-* [ ] Geração automática de exercícios
+We welcome contributions from:
+- **Developers** interested in educational technology
+- **Educators** with experience in technical English
+- **Linguists** specializing in English for Specific Purposes (ESP)
+- **Technical Writers** with documentation expertise
 
-### Visão de Longo Prazo
+## 📄 License
 
-* [ ] Aprendizado multimodal (código + explicação)
-* [ ] Trilhas de aprendizado personalizadas
-* [ ] Recursos colaborativos de aprendizado
-* [ ] Integração com ambientes de desenvolvimento
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contribuindo
+## 🏆 Acknowledgments
 
-Contribuições são bem-vindas de:
-
-* **Desenvolvedores** interessados em tecnologia educacional
-* **Educadores** com experiência em inglês técnico
-* **Linguistas** especializados em *English for Specific Purposes (ESP)*
-* **Redatores Técnicos** com experiência em documentação
-
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT — consulte o arquivo LICENSE para mais detalhes.
-
-## 🏆 Agradecimentos
-
-* Documentações técnicas da AWS, Google Cloud, React e outros projetos de código aberto
-* Pesquisas em *English for Specific Purposes (ESP)*
-* Bibliotecas de PLN de código aberto que tornaram este projeto possível
+- Technical documentation from AWS, Google Cloud, React, and other open-source projects
+- Educational research in English for Specific Purposes (ESP)
+- Open-source NLP libraries that make this project possible
 
 ---
 
-**CodeSense**: Conectando a proficiência técnica ao domínio do inglês, um desenvolvedor por vez. 🚀
-
-```
-```
+**CodeSense**: Bridging the gap between technical expertise and English proficiency, one developer at a time. 🚀
