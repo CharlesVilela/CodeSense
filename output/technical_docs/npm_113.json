@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Creating a new user account on the public registry",
+    "url": "https://docs.npmjs.com/creating-a-new-npm-user-account",
+    "technology": "npm",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766120.6190932"
+  },
+  "content": "Creating a new user account on the public registry\nSee Details\nTable of contents\nIf you do not already have an npm user account, you can create an account in order to share and download JavaScript packages on the public registry.\nCreating an account on the website\nnpm signup page\nIn the user signup form, type in the fields:\nThe username that will be displayed when you publish packages or interact with other npm users on npmjs.com. Your username must be lower case, and can contain hyphens and numerals.\nEmail address:\nYour public email address will be added to the metadata of your packages and will be visible to anyone who downloads your packages. We will also send email to this account when you update packages, as well as occasional product updates and information.\n: Your password must meet\nour password guidelines\nEnd User License Agreement\nPrivacy Policy\n, and indicate that you agree to them.\nCreate An Account\nAfter signing up for an npm account, you will receive an account verification email. You must verify your email address in order to publish packages to the registry.\nTesting your new account with npm login\ncommand to test logging in to your new account.\nIf you misspell your existing account username when you log in with the\ncommand, you will create a new account with the misspelled name. For help with accidentally-created accounts,\ncontact npm Support\nOn the command line, type the following command:\nWhen prompted, enter your username, password, and email address.\nIf you have\ntwo-factor authentication\nenabled, when prompted, enter a one-time password.\nTo test that you have successfully logged in, type:\nYour npm username should be displayed.\nEdit this page on GitHub\ncontributors\ndependabot[bot]\nLast edited by\ndependabot[bot]\nJuly 7, 2025",
+  "word_count": 293,
+  "key_terms": [
+    "authentication"
+  ]
+}

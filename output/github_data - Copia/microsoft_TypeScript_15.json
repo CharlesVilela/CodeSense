@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "tsconfig.json",
+    "url": "https://github.com/microsoft/TypeScript/blob/main/src/services/tsconfig.json",
+    "repo": "microsoft/TypeScript",
+    "file_path": "src/services/tsconfig.json",
+    "file_type": "configuration",
+    "technology": "typescript",
+    "professional_context": "api_reference",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763043.3422167"
+  },
+  "content": "{\r\n    \"extends\": \"../tsconfig-base\",\r\n    \"compilerOptions\": {\r\n    },\r\n    \"references\": [\r\n        { \"path\": \"../compiler\" },\r\n        { \"path\": \"../jsTyping\" }\r\n    ],\r\n    \"include\": [\"**/*\"]\r\n}\r\n",
+  "word_count": 20,
+  "key_terms": [],
+  "file_info": {
+    "size": 201,
+    "sha": "42c124fdd815623cbadd3fb62947f6f045dede68",
+    "download_url": "https://raw.githubusercontent.com/microsoft/TypeScript/main/src/services/tsconfig.json"
+  }
+}

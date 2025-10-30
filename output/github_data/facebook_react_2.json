@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "`react-dom`",
+    "url": "https://github.com/facebook/react/blob/main/packages/react-dom/README.md",
+    "repo": "facebook/react",
+    "file_path": "packages/react-dom/README.md",
+    "file_type": "markdown",
+    "technology": "react",
+    "professional_context": "api_reference",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763025.3912191"
+  },
+  "content": "# `react-dom`\n\nThis package serves as the entry point to the DOM and server renderers for React. It is intended to be paired with the generic React package, which is shipped as `react` to npm.\n\n## Installation\n\n```sh\nnpm install react react-dom\n```\n\n## Usage\n\n### In the browser\n\n```js\nimport { createRoot } from 'react-dom/client';\n\nfunction App() {\n  return <div>Hello World</div>;\n}\n\nconst root = createRoot(document.getElementById('root'));\nroot.render(<App />);\n```\n\n### On the server\n\n```js\nimport { renderToPipeableStream } from 'react-dom/server';\n\nfunction App() {\n  return <div>Hello World</div>;\n}\n\nfunction handleRequest(res) {\n  // ... in your server handler ...\n  const stream = renderToPipeableStream(<App />, {\n    onShellReady() {\n      res.statusCode = 200;\n      res.setHeader('Content-type', 'text/html');\n      stream.pipe(res);\n    },\n    // ...\n  });\n}\n```\n\n## API\n\n### `react-dom`\n\nSee https://react.dev/reference/react-dom\n\n### `react-dom/client`\n\nSee https://react.dev/reference/react-dom/client\n\n### `react-dom/server`\n\nSee https://react.dev/reference/react-dom/server\n",
+  "word_count": 132,
+  "key_terms": [
+    "api",
+    "import",
+    "function"
+  ],
+  "file_info": {
+    "size": 1096,
+    "sha": "b078f194ce6f6a6890f9e8081ae4da583b0e99f8",
+    "download_url": "https://raw.githubusercontent.com/facebook/react/main/packages/react-dom/README.md"
+  }
+}

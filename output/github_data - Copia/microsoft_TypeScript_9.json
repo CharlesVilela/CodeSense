@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "title": "Read this!",
+    "url": "https://github.com/microsoft/TypeScript/blob/main/src/lib/README.md",
+    "repo": "microsoft/TypeScript",
+    "file_path": "src/lib/README.md",
+    "file_type": "markdown",
+    "technology": "typescript",
+    "professional_context": "api_reference",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763036.5968287"
+  },
+  "content": "# Read this!\r\n\r\nThe files within this directory are copied and deployed with TypeScript as the set of APIs  available as a part of the JavaScript language.\r\n\r\nThere are three main domains of APIs in `src/lib`:\r\n \r\n - **ECMAScript language features** - e.g. JavaScript APIs like functions on Array etc which are documented in [ECMA-262](https://tc39.es/ecma262/)\r\n - **DOM APIs** - e.g. APIs which are available in web browsers\r\n - **Intl APIs** - e.g. APIs scoped to `Intl` which are documented in [ECMA-402](https://www.ecma-international.org/publications-and-standards/standards/ecma-402/)\r\n\r\n## How do we figure out when to add something?\r\n\r\nTypeScript has a rule-of-thumb to only add something when it has got far enough through the standards process that it is more or less confirmed. For JavaScript APIs and language features, that means the proposal is at stage 3 or later.\r\n\r\nYou can find the source of truth for modern language features and Intl APIs in these completed proposal lists:\r\n\r\n - [JavaScript](https://github.com/tc39/proposals/blob/master/finished-proposals.md)\r\n - [Intl](https://github.com/tc39/proposals/blob/master/ecma402/finished-proposals.md)\r\n\r\nFor the DOM APIs, which are a bit more free-form, we have asked that APIs are available un-prefixed/flagged in at least 2 browser _engines_ (i.e. not just 2 chromium browsers.) \r\n\r\n## Generated files\r\n\r\nThe DOM files ending in `.generated.d.ts` aren't meant to be edited by hand.\r\n\r\nIf you need to make changes to such files, make a change to the input files for [**our library generator**](https://github.com/microsoft/TypeScript-DOM-lib-generator).\r\n",
+  "word_count": 220,
+  "key_terms": [
+    "typescript"
+  ],
+  "file_info": {
+    "size": 1626,
+    "sha": "15b81789d52a1e48fc6994dc8343f41ba96fcced",
+    "download_url": "https://raw.githubusercontent.com/microsoft/TypeScript/main/src/lib/README.md"
+  }
+}

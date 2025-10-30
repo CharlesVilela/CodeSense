@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/docs/home/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765844.7540214"
+  },
+  "content": "Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation (\nUnderstand Kubernetes\nLearn about Kubernetes and its fundamental concepts.\nWhy Kubernetes?\nComponents of a cluster\nThe Kubernetes API\nObjects In Kubernetes\nWorkloads and Pods\nView Concepts\nTry Kubernetes\nFollow tutorials to learn how to deploy applications in Kubernetes.\nHello Minikube\nWalkthrough the basics\nStateless Example: PHP Guestbook with Redis\nStateful Example: Wordpress with Persistent Volumes\nView Tutorials\nSet up a K8s cluster\nGet Kubernetes running based on your resources and needs.\nLearning environment\nProduction environment\nInstall the kubeadm setup tool\nSecuring a cluster\nkubeadm command reference\nSet up Kubernetes\nLearn how to use Kubernetes\nLook up common tasks and how to perform them using a short sequence of steps.\nkubectl Quick Reference\nInstall kubectl\nConfigure access to clusters\nUse the Web UI Dashboard\nConfigure a Pod to Use a ConfigMap\nGetting help\nLook up reference information\nBrowse terminology, command line syntax, API resource types, and setup tool documentation.\nkubectl command line tool\nLabels, annotations and taints\nKubernetes API reference\nOverview of API\nFeature Gates\nView Reference\nContribute to Kubernetes\nFind out how you can help make Kubernetes better.\nContribute to Kubernetes\nContribute to documentation\nSuggest content improvements\nOpening a pull request\nDocumenting a feature for a release\nLocalizing the docs\nParticipating in SIG Docs\nViewing Site Analytics\nSee Ways to Contribute\nGet certified in Kubernetes and make your cloud native projects successful!\nView training\nDownload Kubernetes\nInstall Kubernetes or upgrade to the newest version.\nDownload Kubernetes\nAbout the documentation\nThis website contains documentation for the current and previous 4 versions of Kubernetes.\nSee available versions\nLast modified April 20, 2024 at 8:53 PM PST:\nReady docs landing page for vanilla Docsy (4da04a797b)",
+  "word_count": 302,
+  "key_terms": [
+    "api"
+  ]
+}

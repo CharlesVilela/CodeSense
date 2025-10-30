@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/de/docs/home/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765867.9861708"
+  },
+  "content": "Kubernetes ist ein Open-Source-System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von containerisierten Anwendungen. Das Open-Source Project wird von der Cloud Native Computing Foundation (\n) gehosted.\nVerstehen Sie die Grundlagen\nLernen Sie Kubernetes und seine grundlegenden Konzepte kennen.\nWas ist Kubernetes?\nKubernetes Komponenten\nKonzepte lernen\nKubernetes ausprobieren\nFolgen Sie den Tutorials, um zu erfahren, wie Sie Anwendungen in Kubernetes bereitstellen.\nHallo Minikube\nSchritt-für-Schritt Grundlagen\nTutorials entdecken\nRichten Sie einen Cluster ein\nHolen Sie sich Kubernetes basierend auf Ihren Ressourcen und Bedürfnissen.\nKubernetes Einrichten\nErfahren Sie, wie Sie Kubernetes verwenden\nInformieren Sie sich über häufig verwendete Aufgaben und deren Durchführung anhand einer kurzen Abfolge von Schritten.\nInstallation von Minikube\nKubectl installieren\nKubectl auf Linux installieren\nKubectl auf macOS installieren\nTasks anzeigen\nReferenzinformationen nachschlagen\nDurchsuchen Sie Terminologie, Befehlszeilensyntax, API-Ressourcentypen und Dokumentation zum Setup-Tool.\nkubectl Spickzettel\nReferenz anzeigen\nTragen Sie zur Dokumentation bei\nJeder kann einen Beitrag leisten, unabhängig davon, ob Sie neu in dem Projekt oder schon lange dabei sind.\nBei SIG Docs mitmachen\nZur Dokumentation beitragen\nKubernetes Herunterladen\nWenn Sie Kubernetes installieren oder auf die neueste Version aktualisieren, lesen Sie die aktuellen Versionshinweise.\nRelease erstellen\nÜber die Dokumentation\nDiese Website enthält Dokumentation zu den aktuellen und vorherigen 4 Versionen von Kubernetes.\nZuletzt geändert August 03, 2025 at 1:25 PM PST:\nUpdate German to support Docsy-style menus (450dcdbece)",
+  "word_count": 217,
+  "key_terms": []
+}

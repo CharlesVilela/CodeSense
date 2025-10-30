@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Tools",
+    "url": "https://git-scm.com/tools",
+    "technology": "git",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "collaboration",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766034.9424024"
+  },
+  "content": "The community has built a huge number of tools to make it easier to use Git.\nWhile you can use Git on its own, most Git users use some of these extra tools.\nThere are editor integrations, GUIs, tools for resolving merge conflicts,\nhosting services, and much more.\nCommand Line Tools\nTools to view and manipulate your Git history\nGraphical user interfaces and editor integrations\nGit repository hosting",
+  "word_count": 68,
+  "key_terms": []
+}

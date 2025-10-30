@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Finding inspiration on GitHub",
+    "url": "https://docs.github.com/en/get-started/start-your-journey/finding-inspiration-on-github",
+    "technology": "github",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766054.9425693"
+  },
+  "content": "Finding inspiration on GitHub\nYou can find inspiration for your own projects and learning on GitHub and connect with a community.\nIn this article\nIntroduction\nGitHub is a vast open-source community. You can explore GitHub to find interesting repositories, topics, code, people, and organizations that can inspire your own work, or support your own learning.\nOnce you've found something that interests you, you can:\nthe repository or topic, so you can easily find it again later.\npeople or organizations, so you can stay updated on their activities.\nuseful repositories or code, and customize it for your own use.\nto another user's project, by opening a pull request.\nOnce you star repositories or follow people, you will see updates on their activities on your\npersonal dashboard\nVisit Explore GitHub\nNavigate to\nExplore GitHub\nBrowse popular repositories and topics.\nnext to repositories and topics that interest you, so you can easily find them again later.\nNavigate to your\nto see all your starred repositories and topics.\nSearch for a topic or project on GitHub\nNavigate to\nhttps://github.com/search\nType a keyword or query into the search bar. For example, try \"green software tools.\" For more detailed information about searching for specific topics, repositories, or code, see\nAbout searching on GitHub\nUse the left sidebar to filter the results. For example, to browse all repositories in the \"green-software\" topic, search \"green-software\", then filter by \"Topic\".\nStar the repositories that match your interests, such as\nGitHub's Green Software Directory\nFollowing people and organizations on GitHub\nFollowing people and organizations is another good way to stay updated on projects and topics that interest you.\nFollowing people\nNavigate to the user's profile page.\nUnder the user's profile picture, click\nOptionally, to unfollow a user, click\nFollowing organizations\nNavigate to the organization page you want to follow.\nIn the top-right corner, click\nOptionally, to unfollow an organization, click\nGitHub has a great support community where you can ask for help and talk to people from around the world. Join the conversation on\nGitHub Community\nIn the next tutorial,\nDownloading files from GitHub\n, you'll learn how to download files from GitHub for your own use, and learn the differences between downloading, cloning, and forking repositories.\nFurther reading\nQuickstart for your personal dashboard\nFinding ways to contribute to open source on GitHub",
+  "word_count": 383,
+  "key_terms": []
+}

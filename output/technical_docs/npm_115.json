@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Receiving a one-time password over email",
+    "url": "https://docs.npmjs.com/receiving-a-one-time-password-over-email",
+    "technology": "npm",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766125.8543952"
+  },
+  "content": "Receiving a one-time password over email\nSee Details\nTable of contents\nFor your security, npm may require additional verification to allow you to log in to your account. If you do not have\ntwo-factor authentication\nenabled, you may be asked to verify yourself with a one-time password sent to the email address configured for your account.\nLogging in with a one-time password\nOn the npm \"\n\" page, enter your account details and click\nYou'll be prompted for a one-time password that was sent to your email.\nCheck your email account for an email from npm containing your one-time password (the subject will begin \"OTP for logging in to your account\").\nEnter the digits from your email in your one-time password field.\nEnabling two-factor authentication\nTo avoid this additional login step, with a one-time password sent to you via e-mail, you can configure\ntwo-factor authentication with a device\n(2FA) instead.\nUnable to access email\nIf you are unable to access the email linked to your npm account, you can submit a support ticket to reset this email address.\nOn the npm \"\n\" page, enter your account details and click\nUnder the \"Login Verification\" form, click\nTry recovering your account\nOn the \"Request an Account Recovery\" page, click\nStart Account Recovery\nIn the \"Open a Support Ticket\" form, enter the following information:\nfield, enter an email address where our support team can contact you.\nHow can we help?\nsection, select\nReset my email\nIf you need help with anything else, in the\nHow can we help?\nsection, select\nand enter more information in the\nAdditional Details\nIf you have previously linked a GitHub account to your npm account, select\nConnect to GitHub\n. This will help our support team verify your account.\nIf you have previously linked a Twitter account to your npm account, select\nConnect to Twitter\n. This will help our support team verify your account.\nAt the bottom of the form, click\nSubmit Support Ticket\nEdit this page on GitHub\ncontributors\ndependabot[bot]\nLast edited by\ndependabot[bot]\nJuly 7, 2025",
+  "word_count": 342,
+  "key_terms": [
+    "authentication"
+  ]
+}

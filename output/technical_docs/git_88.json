@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "External Links",
+    "url": "https://git-scm.com/doc/ext",
+    "technology": "git",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "debugging",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766034.2937746"
+  },
+  "content": "External Links\nShort & Sweet\nOfficial Git Tutorial\nThe official gittutorial man page is a good place to start.\nGit Immersion\nA guided tour that walks through the fundamentals of Git.\nEveryday Git\nLearn the basics with 20 of the most common commands.\nBacklog Git Tutorial\nIt includes an introduction for complete beginners as well as hands-on tutorials for intermediate learners.\nSimplified Chinese\nTraditional Chinese\nDiving Deeper\nA hands-on introduction to the entire Git porcelain.\nGit for Computer Scientists\nA quick introduction to Git internals for people who aren't scared by words like Directed Acyclic Graph.\nAn alternative book with the source\nGit for Data Science\nBest practices and typical Git workflows for data science.\nGit for Designers\nNo knowledge of version control? No problem.\ngit-draw is a small tool that draws nearly the full content of a tiny git repository as a graph. It helps people with an engineering background learning Git's internals.\nGitHub Docs\nGuides on a variety of Git and GitHub related topics.\nBy Scott Chacon and Ben Straub\nGit in Practice\nBy Mike McQuaid\nGit in the Trenches\nBy Peter Savage\nGit for Teams\nBy Emma Jane Hogbin Westby\nLearning Git: A Hands-On and Visual Guide to the Basics of Git\nBy Anna Skoulikari\nVersion Control with Git, 2nd ed.\nBy Jon Loeliger & Matthew McCullough\nPragmatic Guide to Git\nBy Travis Swicegood\nPragmatic Version Control Using Git\nBy Travis Swicegood\nGit Internals Peepcode PDF\nBy Scott Chacon\nLearn Git in a Month of Lunches\nBy Rick Umali\nBeginning Git and GitHub\nBy Mariot Tsitoara\nBoost Your Git DX\nBy Adam Johnson\nTech Talk: Linus Torvalds on Git\nLinus Torvalds visits Google to share his thoughts on Git, the SCM system he created.\nIntroduction to Git: Scott Chacon\nThis talk introduces the Git Version Control System by looking at what Git is doing when you run the commands you need to do basic version control with it.\nVersioned and reproducible storage of code and data\nIn this course you will learn how to create reproducible research results and write source code efficiently together.\nVersioned and reproducible storage of code and data\nThree-day course on Git in data science",
+  "word_count": 362,
+  "key_terms": []
+}

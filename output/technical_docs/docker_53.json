@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Docker Engine",
+    "url": "https://docs.docker.com/engine/",
+    "technology": "docker",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765820.5761616"
+  },
+  "content": "Start typing to search or try\nContact support\nGet started\nDocker Engine\nPage options\nCopy page as Markdown for LLMs\nView page as plain text\nAsk questions with Docs AI\nOpen in Claude\nTable of contents\nDocker Engine is an open source containerization technology for building and\ncontainerizing your applications. Docker Engine acts as a client-server\napplication with:\nA server with a long-running daemon process\nAPIs which specify interfaces that programs can use to talk to and instruct\nthe Docker daemon.\nA command line interface (CLI) client\nThe CLI uses\nDocker APIs\nto control or interact with the Docker\ndaemon through scripting or direct CLI commands. Many other Docker applications\nuse the underlying API and CLI. The daemon creates and manages Docker objects,\nsuch as images, containers, networks, and volumes.\nFor more details, see\nDocker Architecture\nInstall Docker Engine\nLearn how to install the open source Docker Engine for your distribution.\nUse persistent data with Docker containers.\nManage network connections between containers.\nContainer logs\nLearn how to view and read container logs.\nTidy up unused resources.\nConfigure the daemon\nDelve into the configuration options of the Docker daemon.\nRootless mode\nRun Docker without root privileges.\nDeprecated features\nFind out what features of Docker Engine you should stop using.\nRelease notes\nRead the release notes for the latest version.\nCommercial use of Docker Engine obtained via Docker Desktop\nwithin larger enterprises (exceeding 250 employees OR with annual revenue surpassing\n$10 million USD), requires a\npaid subscription\nApache License, Version 2.0. See\nfor the full license.\nEdit this page\nRequest changes\nTable of contents",
+  "word_count": 262,
+  "key_terms": [
+    "api",
+    "configuration",
+    "interface"
+  ]
+}

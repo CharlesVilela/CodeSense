@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Get started",
+    "url": "https://docs.docker.com/get-started/",
+    "technology": "docker",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765817.819069"
+  },
+  "content": "Start typing to search or try\nContact support\nGet started\nGet started\nIf you're new to Docker, this section guides you through the essential resources to get started.\nFollow the guides to help you get started and learn how Docker can optimize your development workflows.\nFor more advanced concepts and scenarios in Docker, see\nFoundations of Docker\nInstall Docker and jump into discovering what Docker is.\nChoose the best installation path for your setup.\nWhat is Docker?\nLearn about the Docker platform.\nLearn the foundational concepts and workflows of Docker.\nIntroduction\nGet started with the basics and the benefits of containerizing your applications.\nDocker concepts\nGain a better understanding of foundational Docker concepts.\nDocker workshop\nGet guided through a 45-minute workshop to learn about Docker.",
+  "word_count": 125,
+  "key_terms": []
+}

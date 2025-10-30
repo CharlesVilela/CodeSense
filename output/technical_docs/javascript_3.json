@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "JavaScript Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "technology": "javascript",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765676.7504947"
+  },
+  "content": "JavaScript Guide\nThe JavaScript Guide shows you how to use\nand gives an overview of the language. If you need exhaustive information about a language feature, have a look at the\nJavaScript reference\nThis Guide is divided into the following chapters.\nIntroduction\nIntroduction\nAbout this guide\nAbout JavaScript\nJavaScript and Java\nWhat's next\nGrammar and types\nGrammar and types\nBasic syntax & comments\nDeclarations\nVariable scope\nVariable hoisting\nData structures and types\nControl flow and error handling\nControl flow and error handling\nError objects\nLoops and iteration\nLoops and iteration\nDefining functions\nCalling functions\nFunction scopes and closures\nArrow functions\nExpressions and operators\nExpressions and operators\nComparisons\nArithmetic operators\nlogical operators\nConditional (ternary) operator\nNumbers and strings\nNumbers and strings\nTemplate literals\nRepresenting dates & times\nRepresenting dates & times\nRegular expressions\nRegular expressions\nCreating a regular expression\nWriting a regular expression pattern\nCharacter classes\nGroups and backreferences\nQuantifiers\nIndexed collections\nIndexed collections\nKeyed collections\nKeyed collections\nWorking with objects\nWorking with objects\nObjects and properties\nCreating objects\nDefining methods\nGetter and setter\nUsing classes\nUsing classes\nDeclaring a class\nVarious class features\nExtends and inheritance\nWhy classes?\nError handling\nComposition\nTyped arrays\nTyped arrays\nIterators and generators\nIterators and generators\nInternationalization\nInternationalization\nDate and time formatting\nNumber formatting\nJavaScript modules\nJavaScript modules\nDefault exports\nRenaming features\nAggregating modules\nDynamic module loading\nAdvanced topics\nAfter you have learned all fundamental features of JavaScript, you can explore some more niche features, or dive deeper into the language's mechanisms and concepts.\nLanguage overview\nData structures\nEnumerability and ownership of properties\nInheritance and the prototype chain\nEquality comparisons and sameness\nMeta programming\nMemory management\nHelp improve MDN\nLearn how to contribute\nThis page was last modified on\n⁨Jul 8, 2025⁩\nMDN contributors\nView this page on GitHub\nReport a problem with this content",
+  "word_count": 300,
+  "key_terms": [
+    "class",
+    "variable",
+    "function"
+  ]
+}

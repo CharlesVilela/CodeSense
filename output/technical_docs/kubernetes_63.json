@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/fr/docs/home/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765863.208462"
+  },
+  "content": "Kubernetes est un moteur d'orchestration de conteneur *open source* permettant d'automatiser le déploiement, la mise à l'échelle et la gestion des applications conteneurisées. Le projet *open source* est hébergé par la Cloud Native Computing Foundation. (\nComprendre Kubernetes\nEn savoir plus sur Kubernetes et ses concepts fondamentaux.\nPourquoi Kubernetes ?\nComposants d'un cluster\nL'API Kubernetes\nObjets dans Kubernetes\nAperçu du Pod\nApprendre les concepts\nEssayer Kubernetes\nSuivre les tutoriels pour apprendre à déployer des applications dans Kubernetes.\nBienvenue sur Minikube\nPas à pas des bases\nVoir les tutoriels\nMettre en place un << cluster >> K8s\nFaites fonctionner Kubernetes en fonction de vos ressources et de vos besoins.\nInstallez l'outil de configuration kubeadm\nMettre en place Kubernetes\nApprendre à utiliser Kubernetes\nRechercher des tâches courantes et la manière de les exécuter en suivant une courte séquence d'étapes.\nAide-mémoire de kubectl\nInstaller Minikube\nInstaller kubectl\nUtiliser le tableau de bord (Dashboard)\nConfigurer l'accès à plusieurs clusters\nConfigurer un pod pour utiliser une ConfigMap\nVoir les tâches\nRechercher des informations de référence\nParcourir la terminologie, la syntaxe de ligne de commande, les types de ressources de l'API et la documentation de l'outil de configuration.\nAperçu de kubectl\nAide-mémoire kubectl\nAperçu de kubeadm\nVoir la référence\nContribuer à la documentation\nDécouvrez comment vous pouvez améliorer Kubernetes.\nCommencez à contribuer\nDocumentation Style Guide\nUtilisation des modèles de page\nTranslating the docs\nParticipez au SIG Docs\nVoir les manières de contribuer\nObtenez une certification Kubernetes et réussissez vos projets « cloud native » !\nVoir la formation\nTélécharger Kubernetes\nInstaller Kubernetes ou le mettre à niveau vers la dernière version.\nTélécharger Kubernetes\nA propos de la documentation\nCe site Web contient la documentation pour la version actuelle et les 4 versions précédentes de Kubernetes.\nVoir les versions disponibles\nDernière modification June 22, 2025 at 9:56 PM PST:\nFirst contrib for updating some translated pages in French. (54ed55cc0b)",
+  "word_count": 312,
+  "key_terms": [
+    "configuration"
+  ]
+}

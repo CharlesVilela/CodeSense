@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Security",
+    "url": "https://go.dev/security/",
+    "technology": "go",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765715.8755958"
+  },
+  "content": "This page provides resources for Go developers to improve security for their\nSecurity Best Practices for Go Developers\nFind and fix known vulnerabilities\nGo’s vulnerability detection aims to provide low-noise, reliable tools for\ndevelopers to learn about known vulnerabilities that may affect their projects.\nFor an overview, start at\nthis summary and FAQ page\nabout Go’s vulnerability management architecture. For an applied approach,\nexplore the tools below.\nScan code for vulnerabilities with govulncheck\nDevelopers can use the govulncheck tool to determine whether any known\nvulnerabilities affect their code and prioritize next steps based on which vulnerable\nfunctions and methods are actually called.\nView the govulncheck documentation\nTutorial: Get started with govulncheck\nDetect vulnerabilities from your editor\nThe VS Code Go extension checks third-party dependencies and surfaces relevant vulnerabilities.\nUser documentation\nDownload VS Code Go\nTutorial: Get started with VS Code Go\nFind Go modules to build upon\nis a website for discovering, evaluating and\nlearning more about Go packages and modules. When discovering and evaluating\npackages on pkg.go.dev, you will\nsee a banner on the top of a page\nif there are vulnerabilities in that version. Additionally, you can see the\nvulnerabilities impacting each version of a package\non the version history page.\nBrowse the vulnerability database\nThe Go vulnerability database collects data directly from Go package\nmaintainers as well as from outside sources such as\nare curated by the Go Security team.\nBrowse reports in the Go vulnerability database\nView the Go Vulnerability Database documentation\nContribute a public vulnerability to the database\nReport security bugs in the Go project\nSecurity Policy\nConsult the Security Policy for instructions on how to\nreport a vulnerability in the Go project\nThe page also details the Go security team’s process of tracking issues and\ndisclosing them to the public. See the\nrelease history\nfor details about past security\nfixes. Per the\nrelease policy\nwe issue security fixes to the two most recent major releases of Go.\nTest unexpected inputs with fuzzing\nGo native fuzzing provides a type of automated testing which continuously\nmanipulates inputs to a program to find bugs. Go supports fuzzing in its\nstandard toolchain beginning in Go 1.18.  Native Go fuzz tests are\nsupported by OSS-Fuzz\nReview the basics of fuzzing\nTutorial: Get started with fuzzing\nSecure services with Go’s cryptography libraries\nGo’s cryptography libraries aim to help developers build secure applications.\nSee documentation for the\ncrypto packages\ngolang.org/x/crypto/\nFIPS 140-3 compliant cryptography\nGo’s cryptography libraries can be used in a FIPS 140-3 compliant mode for use\nin regulated environments. See the\nFIPS 140-3 Compliance\ndocumentation\nfor more information.",
+  "word_count": 429,
+  "key_terms": [
+    "database"
+  ]
+}

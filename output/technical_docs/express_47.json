@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "title": "Express examples",
+    "url": "https://expressjs.com/en/starter/examples.html",
+    "technology": "express",
+    "category": "frameworks",
+    "english_level": "B1",
+    "professional_context": "debugging",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765807.8755846"
+  },
+  "content": "Express examples\nThis page contains list of examples using Express.\n- Authentication with login and password\ncontent-negotiation\n- HTTP content negotiation\ncookie-sessions\n- Working with cookie-based sessions\n- Working with cookies\n- Transferring files to client\n- Working with Embedded JavaScript templating (ejs)\nerror-pages\n- Creating error pages\n- Working with error middleware\nhello-world\n- Simple request handler\n- Markdown as template engine\nmulti-router\n- Working with multiple Express routers\n- MVC-style controllers\n- Tracking online user activity with\n- Working with route parameters\n- Multiple HTTP operations on the same resource\n- Organizing routes using a map\nroute-middleware\n- Working with route middleware\nroute-separation\n- Organizing routes per each resource\n- Search API\n- User sessions\nstatic-files\n- Serving static files\n- Working with virtual hosts\nview-constructor\n- Rendering views dynamically\nview-locals\n- Saving data in request object between middleware calls\nweb-service\n- Simple API service\nAdditional examples\nThese are some additional examples with more extensive integrations.\nThis information refers to third-party sites, products, or modules that are not maintained by the Expressjs team. Listing here does not constitute an endorsement or recommendation from the Expressjs project team.\nprisma-rest-api-ts\n- REST API with Express in TypeScript using\nPrevious: Static Files\nEdit this page",
+  "word_count": 204,
+  "key_terms": [
+    "authentication",
+    "api",
+    "middleware",
+    "object"
+  ]
+}

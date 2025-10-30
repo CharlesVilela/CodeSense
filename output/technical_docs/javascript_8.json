@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "title": "Standard built-in objects",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+    "technology": "javascript",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765697.620261"
+  },
+  "content": "Standard built-in objects\nThis chapter documents all of JavaScript's standard, built-in objects, including their methods and properties.\nThe term \"global objects\" (or standard built-in objects) here is not to be confused with\nthe global object\n. Here, \"global objects\" refer to\nobjects in the global scope\nglobal object\nitself can be accessed using the\noperator in the global scope. In fact, the global scope\nconsists of\nthe properties of the global object, including inherited properties, if any.\nOther objects in the global scope are either\ncreated by the user script\nor provided by the host application. The host objects available in browser contexts are documented in the\nAPI reference\nFor more information about the distinction between the\nJavaScript technologies overview\nStandard objects by category\nValue properties\nThese global properties return a simple value. They have no properties or methods.\nFunction properties\nThese global functions—functions which are called globally, rather than on an object—directly return their results to the caller.\nparseFloat()\ndecodeURI()\ndecodeURIComponent()\nencodeURI()\nencodeURIComponent()\nFundamental objects\nThese objects represent fundamental language constructs.\nError objects\nError objects are a special type of fundamental object. They include the basic\ntype, as well as several specialized error types.\nAggregateError\nReferenceError\nSuppressedError\nSyntaxError\nInternalError\nNon-standard\nNumbers and dates\nThese are the base objects representing numbers, dates, and mathematical calculations.\nText processing\nThese objects represent strings and support manipulating them.\nIndexed collections\nThese objects represent collections of data which are ordered by an index value. This includes (typed) arrays and array-like constructs.\nUint8ClampedArray\nUint16Array\nUint32Array\nBigInt64Array\nBigUint64Array\nFloat16Array\nFloat32Array\nFloat64Array\nKeyed collections\nThese objects represent collections which use keys. The iterable collections (\n) contain elements which are easily iterated in the order of insertion.\nStructured data\nThese objects represent and interact with structured data buffers and data coded using JavaScript Object Notation (JSON).\nArrayBuffer\nSharedArrayBuffer\nManaging memory\nThese objects interact with the garbage collection mechanism.\nFinalizationRegistry\nControl abstraction objects\nControl abstractions can help to structure code, especially async code (without using deeply nested callbacks, for example).\nAsyncIterator\nGeneratorFunction\nAsyncGeneratorFunction\nAsyncGenerator\nAsyncFunction\nDisposableStack\nAsyncDisposableStack\nInternationalization\nAdditions to the ECMAScript core for language-sensitive functionalities.\nIntl.Collator\nIntl.DateTimeFormat\nIntl.DisplayNames\nIntl.DurationFormat\nIntl.ListFormat\nIntl.Locale\nIntl.NumberFormat\nIntl.PluralRules\nIntl.RelativeTimeFormat\nIntl.Segmenter\nHelp improve MDN\nLearn how to contribute\nThis page was last modified on\n⁨Jul 29, 2025⁩\nMDN contributors\nView this page on GitHub\nReport a problem with this content",
+  "word_count": 387,
+  "key_terms": [
+    "api",
+    "return",
+    "object",
+    "function"
+  ]
+}

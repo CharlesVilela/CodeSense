@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "typeParameterIsPossiblyReferenced.ts",
+    "url": "https://github.com/microsoft/TypeScript/blob/main/src/testRunner/unittests/typeParameterIsPossiblyReferenced.ts",
+    "repo": "microsoft/TypeScript",
+    "file_path": "src/testRunner/unittests/typeParameterIsPossiblyReferenced.ts",
+    "file_type": "code",
+    "technology": "typescript",
+    "professional_context": "api_reference",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763046.8384469"
+  },
+  "content": "import * as documents from \"../_namespaces/documents.js\";\r\nimport * as fakes from \"../_namespaces/fakes.js\";\r\nimport * as Harness from \"../_namespaces/Harness.js\";\r\nimport * as ts from \"../_namespaces/ts.js\";\r\nimport * as vfs from \"../_namespaces/vfs.js\";\r\n\r\ndescribe(\"unittests :: internalApi :: typeParameterIsPossiblyReferenced\", () => {\r\n    it(\"with type parameter aliasing\", () => {\r\n        const content = `\r\n            declare function foo<T>(b: T, f: <T>(a: typeof b) => typeof a): typeof f;\r\n            `;\r\n        const host = new fakes.CompilerHost(vfs.createFromFileSystem(\r\n            Harness.IO,\r\n            /*ignoreCase*/ true,\r\n            {\r\n                documents: [\r\n                    new documents.TextDocument(\"/file.ts\", content),\r\n                ],\r\n                cwd: \"/\",\r\n            },\r\n        ));\r\n        const program = ts.createProgram({\r\n            host,\r\n            rootNames: [\"/file.ts\"],\r\n            options: { strict: true },\r\n        });\r\n        const checker = program.getTypeChecker();\r\n        const file = program.getSourceFile(\"/file.ts\")!;\r\n        const typeQueryNode = ((file.statements[0] as ts.FunctionDeclaration) // function f<T>\r\n            .parameters[1] // f\r\n            .type! as ts.FunctionTypeNode) // <T>(a: typeof b) => typeof a\r\n            .type as ts.TypeQueryNode // typeof a\r\n        ;\r\n        const typeParameterDecl = (file.statements[0] as ts.FunctionDeclaration).typeParameters![0]; // T in f<T>\r\n        const typeParameter = checker.getTypeAtLocation(typeParameterDecl) as ts.TypeParameter;\r\n        const isReferenced = checker.isTypeParameterPossiblyReferenced(typeParameter, typeQueryNode);\r\n        assert.ok(isReferenced, \"Type parameter is referenced in type query node\");\r\n    });\r\n});\r\n",
+  "word_count": 164,
+  "key_terms": [
+    "import",
+    "function",
+    "parameter"
+  ],
+  "file_info": {
+    "size": 1785,
+    "sha": "d0c4a26a16e04bd0959a73fbf4227b4e1b78bd3e",
+    "download_url": "https://raw.githubusercontent.com/microsoft/TypeScript/main/src/testRunner/unittests/typeParameterIsPossiblyReferenced.ts"
+  }
+}

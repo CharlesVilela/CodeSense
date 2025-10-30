@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "title": "ts.FindAllReferences.ts",
+    "url": "https://github.com/microsoft/TypeScript/blob/main/src/services/_namespaces/ts.FindAllReferences.ts",
+    "repo": "microsoft/TypeScript",
+    "file_path": "src/services/_namespaces/ts.FindAllReferences.ts",
+    "file_type": "code",
+    "technology": "typescript",
+    "professional_context": "api_reference",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763039.5866508"
+  },
+  "content": "/* Generated file to emulate the ts.FindAllReferences namespace. */\r\n\r\nexport * from \"../importTracker.js\";\r\nexport * from \"../findAllReferences.js\";\r\n",
+  "word_count": 17,
+  "key_terms": [
+    "export"
+  ],
+  "file_info": {
+    "size": 151,
+    "sha": "76f8567e814658a697d48e20930c8e19b8401846",
+    "download_url": "https://raw.githubusercontent.com/microsoft/TypeScript/main/src/services/_namespaces/ts.FindAllReferences.ts"
+  }
+}

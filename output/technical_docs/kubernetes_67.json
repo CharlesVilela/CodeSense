@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/zh-cn/docs/concepts/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765894.4691863"
+  },
+  "content": "概念部分帮助你了解 Kubernetes 系统的各个部分以及\nKubernetes 用来表示\n并帮助你更深入地理解 Kubernetes 是如何工作的。\nKubernetes 是一个可移植、可扩展的开源平台，用于管理容器化的工作负载和服务，方便进行声明式配置和自动化。Kubernetes 拥有一个庞大且快速增长的生态系统，其服务、支持和工具的使用范围广泛。\nKubernetes 架构\nKubernetes 背后的架构概念。\n打包应用及其运行依赖环境的技术。\n理解 Kubernetes 中可部署的最小计算对象 Pod 以及辅助 Pod 运行的上层抽象。\nKubernetes 网络背后的概念和资源。\n为集群中的 Pods 提供长期和临时存储的方法。\nKubernetes 为配置 Pod 所提供的资源。\n确保云原生工作负载安全的一组概念。\n通过策略管理安全性和最佳实践。\n关于创建和管理 Kubernetes 集群的底层细节。\nKubernetes 中的 Windows\nKubernetes 支持运行 Microsoft Windows 节点。\n扩展 Kubernetes\n改变你的 Kubernetes 集群的行为的若干方法。\n感谢反馈。如果你有一个关于如何使用 Kubernetes 的具体问题需要答案，可以访问\nStack Overflow\n最后修改 August 16, 2022 at 3:51 PM PST:\n[zh] Update content\\zh-cn\\docs\\concepts\\_index.md (da40f4ad83)",
+  "word_count": 67,
+  "key_terms": []
+}

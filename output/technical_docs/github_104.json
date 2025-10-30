@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://docs.github.com/en/pull-requests",
+    "technology": "github",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "collaboration",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766063.548204"
+  },
+  "content": "Changing a commit message\nIf a commit message contains unclear, incorrect, or sensitive information, you can amend it locally and push a new commit with a new message to GitHub. You can also change a commit message to add missing information.\nResolving a merge conflict using the command line\nYou can resolve merge conflicts using the command line and a text editor.\nCreating and deleting branches within your repository\nYou can create or delete branches directly on GitHub.\nCreating a pull request\nCreate a pull request to propose and collaborate on changes to a repository. These changes are proposed in a branch, which ensures that the default branch only contains finished and approved work.\nAbout pull request reviews\nReviews allow collaborators to comment on the changes proposed in pull requests, approve the changes, or request further changes before the pull request is merged. Repository administrators can require that all pull requests are approved before being merged.\nResolving a merge conflict on GitHub\nYou can resolve simple merge conflicts that involve competing line changes on GitHub, using the conflict editor.\nSyncing a fork\nSync a fork of a repository to keep it up-to-date with the upstream repository.\nMerging a pull request\nMerge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.\nApproving a pull request with required reviews\nIf your repository requires reviews, pull requests must have a specific number of approving reviews from people with write or admin permissions in the repository before they can be merged.\nReverting a pull request\nYou can revert a pull request after it's been merged to the upstream branch.\nWhy are my commits linked to the wrong user?\nGitHub uses the email address in the commit header to link the commit to a GitHub user. If your commits are being linked to another user, or not linked to a user at all, you may need to change your local Git configuration settings, add an email address to your account email settings, or do both.\nAll Pull requests docs\nCommitting changes to your project\nCreating and editing commits\nViewing and comparing commits\nTroubleshooting commits\nCollaborating with pull requests\nGetting started\nWorking with forks\nCollaborating on repositories with code quality features\nProposing changes to your work with pull requests\nAddressing merge conflicts\nReviewing changes in pull requests\nIncorporating changes from a pull request",
+  "word_count": 400,
+  "key_terms": [
+    "configuration"
+  ]
+}

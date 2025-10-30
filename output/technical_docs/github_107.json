@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Creating and editing commits",
+    "url": "https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits",
+    "technology": "github",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766068.2655125"
+  },
+  "content": "Creating and editing commits\nAbout commits\nYou can save small groups of meaningful changes as commits.\nCreating a commit with multiple authors\nYou can attribute a commit to more than one author by adding one or more\nCo-authored-by\ntrailers to the commit's message. Co-authored commits are visible on GitHub.\nCreating a commit on behalf of an organization\nYou can create commits on behalf of an organization by adding a trailer to the commit's message. Commits attributed to an organization include an\non-behalf-of\nbadge on GitHub.\nChanging a commit message\nIf a commit message contains unclear, incorrect, or sensitive information, you can amend it locally and push a new commit with a new message to GitHub. You can also change a commit message to add missing information.",
+  "word_count": 126,
+  "key_terms": []
+}

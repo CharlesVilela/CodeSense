@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/zh-cn/docs/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765901.773397"
+  },
+  "content": "Kubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、扩缩和管理。此开源项目由\n了解 Kubernetes\n了解 Kubernetes 及其基础概念。\n为什么选择 Kubernetes?\nKubernetes API\nKubernetes 对象\n尝试 Kubernetes\n按照教程学习如何在 Kubernetes 上部署应用。\n你好，Minikube\n无状态应用示例：基于 Redis 的 PHP Guestbook\n有状态应用示例: 带持久卷的 Wordpress\n基于你的资源情况和需求来运行 Kubernetes。\n安装 kubeadm 设置工具\nkubeadm 命令参考\n安装 Kubernetes\n了解如何使用 Kubernetes\n查看常见任务以及如何使用简单步骤执行它们。\nkubectl 快速参考\n使用 Web 界面 Dashboard\n配置 Pod 使用 ConfigMap\nkubectl 命令行工具\nKubernetes API 参考\n为 Kubernetes 作贡献\n了解如何帮助改善 Kubernetes。\n开始为 Kubernetes 做贡献\n为发行版本撰写功能特性文档\n参与 SIG Docs\n通过 Kubernetes 认证，助你的云原生项目成功！\n下载 Kubernetes\n安装 Kubernetes 或将其升级到最新版本。\n下载 Kubernetes\n本网站包含了当前及前 4 个版本的 Kubernetes 文档。\n最后修改 May 29, 2025 at 11:11 AM PST:\n[zh] Update docs/home/_index.md (b5be9030b7)",
+  "word_count": 93,
+  "key_terms": [
+    "api"
+  ]
+}

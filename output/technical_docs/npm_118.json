@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Accessing npm using two-factor authentication",
+    "url": "https://docs.npmjs.com/accessing-npm-using-2fa",
+    "technology": "npm",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766132.0267625"
+  },
+  "content": "Accessing npm using two-factor authentication\nSee Details\nTable of contents\nSign in from the command line using security-key flow\nOn the command line, type the\nWhen prompted, provide your username, password, and email address.\nIf you have configured a security-key, open the provided URL shown in the command line. Alternatively, if you have configured a mobile authenticator skip to step 6.\nUse security key\nand follow the browser specific steps to authenticate.\nCopy the generated token\nEnter the one-time password into the CLI prompt.\nEnter one-time password:\nSign in from the command line using\n--auth-type=web\nnpm 8.14.0 and higher support login flow through the browsers. This will become the default behavior for the npm public registry in npm 9.\nWith an existing browser session\nOn the command line, type the\nnpm login --auth-type=web\nWhen prompted hit \"ENTER\" to open your browser to start the login flow or click the provided URL show in the command line.\nUse security key\nand follow the browser specific steps to authenticate.\nNote: If you have configured to use TOTP, you will see an TOTP prompt instead\nWithout an existing browser session\nOn the command line, type the\nnpm login --auth-type=web\nWhen prompted hit \"ENTER\" to open your browser to start the login flow or click the provided URL show in the command line.\nOn the npm \"\n\" page, enter your account details and click\nUse security key\nand follow the browser specific steps to authenticate.\nNote: If you have configured to use TOTP, you will see an TOTP prompt instead\nEdit this page on GitHub\ncontributors\nMylesBorins\nLast edited by\nOctober 23, 2023",
+  "word_count": 270,
+  "key_terms": [
+    "authentication"
+  ]
+}

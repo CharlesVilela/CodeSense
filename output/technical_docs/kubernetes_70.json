@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/de/docs/concepts/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765913.3171434"
+  },
+  "content": "Im Abschnitt Konzepte erfahren Sie mehr über die Bestandteile des Kubernetes-Systems und die Abstraktionen, die Kubernetes zur Verwaltung Ihres Clusters zur Verfügung stellt. Sie erhalten zudem ein tieferes Verständnis der Funktionsweise von Kubernetes.\nKubernetes ist eine portable, erweiterbare und quelloffene Plattform, um containerisierte Arbeitslasten und Dienste zu verwalten. Dies wird mithilfe von Automatisierungen und deklarativen Konfigurationen erreicht. Kubernetes hat ein großes, schnell wachsendes Ökosystem. Dienstleistungen, Hilfestellungen und Tools für Kubernetes sind weit verbreitet.\nKubernetes Architektur\nHier werden die architektonischen Konzepte von Kubernetes beschrieben.\nMethoden, um Anwendungen und ihre Abhängigkeiten zusammenzufassen.\nInformationen über Pods, die kleinsten Einheiten, die in Kubernetes bereitgestellt werden können und über Abstraktionen, die hierbei behilflich sind.\nDienste, Lastverteilung und Netzwerkfunktionen\nKonzepte und Resourcen bezüglich Netzwerktechnik in Kubernetes\nMethoden, um volatilen oder persistenten Speicher für Pods im Cluster zur Verfügung zu stellen.\nKonfiguration\nResourcen, die bei der Konfiguration von Pods in Kubernetes nützlich sind.\nRichtlinien\nSie können Richtlinien erstellen, die Resource-Gruppen zugewiesen werden können.\nCluster Administration\nTiefergreifende Details, die für das Erstellen und Administrieren eines Kubernetes Clusters relevant sind.\nKubernetes erweitern\nVerschiedene Wege, um die Funktionalität von Kubernetes zu erweitern.\nKonzept Dokumentations-Vorlage\nWenn Sie eine Konzeptseite schreiben möchten, lesen Sie\nSeitenvorlagen verwenden\nfür Informationen zum Konzeptseitentyp und zur Dokumentations-Vorlage.\nWar diese Seite hilfreich?\nDanke für die Rückmeldung. Wenn Sie eine spezifische, beantwortbare Frage zur Verwendung von Kubernetes haben, stellen Sie diese unter\nStack Overflow\nÖffnen Sie ein Problem im GitHub-Repo, wenn Sie möchten\nEin Problem melden\nEine Verbesserung vorschlagen\nZuletzt geändert May 21, 2023 at 2:52 PM PST:\nChange style of German Concepts index page (d524178a60)",
+  "word_count": 258,
+  "key_terms": []
+}

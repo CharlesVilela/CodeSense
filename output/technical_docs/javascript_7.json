@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "JavaScript reference",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "technology": "javascript",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765692.9592133"
+  },
+  "content": "JavaScript reference\nThe JavaScript reference serves as a repository of facts about the JavaScript language. The entire language is described here in detail. As you write JavaScript code, you'll refer to these pages often (thus the title \"JavaScript reference\").\nThe JavaScript language is intended to be used within some larger environment, be it a browser, server-side scripts, or similar. For the most part, this reference attempts to be environment-agnostic and does not target a web browser environment.\nIf you are new to JavaScript, start with the\n. Once you have a firm grasp of the fundamentals, you can use the reference to get more details on individual objects and language constructs.\nJavaScript standard built-in objects\n, along with their methods and properties.\nValue properties\nFunction properties\nparseFloat()\ndecodeURI()\ndecodeURIComponent()\nencodeURI()\nencodeURIComponent()\nFundamental objects\nError objects\nAggregateError\nReferenceError\nSuppressedError\nSyntaxError\nInternalError\nNon-standard\nNumbers and dates\nText processing\nIndexed collections\nUint8ClampedArray\nUint16Array\nUint32Array\nBigInt64Array\nBigUint64Array\nFloat16Array\nFloat32Array\nFloat64Array\nKeyed collections\nStructured data\nArrayBuffer\nSharedArrayBuffer\nManaging memory\nFinalizationRegistry\nControl abstraction objects\nAsyncIterator\nGeneratorFunction\nAsyncGeneratorFunction\nAsyncGenerator\nAsyncFunction\nDisposableStack\nAsyncDisposableStack\nInternationalization\nIntl.Collator\nIntl.DateTimeFormat\nIntl.DisplayNames\nIntl.DurationFormat\nIntl.ListFormat\nIntl.Locale\nIntl.NumberFormat\nIntl.PluralRules\nIntl.RelativeTimeFormat\nIntl.Segmenter\nJavaScript statements and declarations\nControl flow\ntry...catch\nDeclaring variables\nawait using\nFunctions and classes\nasync function\nasync function*\nfor await...of\nExpression statement\nExpressions and operators\nJavaScript expressions and operators\nPrimary expressions\nasync function\nasync function*\nLeft-hand-side expressions\nProperty accessors\nimport.meta\nIncrement and decrement\nUnary operators\nArithmetic operators\nRelational operators\n(Less than)\n(Greater than)\nEquality operators\nBitwise shift operators\nBinary bitwise operators\nBinary logical operators\nConditional (ternary) operator\n(condition ? ifTrue : ifFalse)\nAssignment operators\n[a, b] = arr\n{ a, b } = obj\nYield operators\nSpread syntax\nComma operator\nJavaScript functions.\nArrow Functions\nDefault parameters\nRest parameters\nMethod definitions\nJavaScript classes.\nconstructor\nPrivate elements\nPublic class fields\nStatic initialization blocks\nRegular expressions\nJavaScript regular expressions.\nBackreference:\nCapturing group:\nCharacter class:\nCharacter class escape:\nCharacter escape:\nDisjunction:\nInput boundary assertion:\nLiteral character:\nLookahead assertion:\nLookbehind assertion:\n(?ims-ims:...)\nNamed backreference:\nNamed capturing group:\n(?<name>...)\nNon-capturing group:\nQuantifier:\nUnicode character class escape:\nWord boundary assertion:\nAdditional reference pages\nJavaScript technologies overview\nExecution model\nLexical grammar\nData types and data structures\nIteration protocols\nTrailing commas\nStrict mode\nDeprecated features\nHelp improve MDN\nLearn how to contribute\nThis page was last modified on\n⁨Jul 29, 2025⁩\nMDN contributors\nView this page on GitHub\nReport a problem with this content",
+  "word_count": 391,
+  "key_terms": [
+    "class",
+    "function",
+    "method"
+  ]
+}

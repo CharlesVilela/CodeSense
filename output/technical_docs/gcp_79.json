@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://cloud.google.com/docs/get-started",
+    "technology": "gcp",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "architecture",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765978.432331"
+  },
+  "content": "Documentation\nSend feedback\nGet started with Google Cloud\nStart by creating a Google Cloud account. Plus, you get $300 in free credits and free usage of 20+ products on signup to run, test, and deploy workloads.\nCreate an account\nGoogle Cloud overview\nGet started with Google Cloud\nGet hands-on experience with\nfree usage of 20+ products\n, including popular products like AI APIs, Compute Engine, BigQuery, and more.\nGo to console\nGoogle Cloud overview\nStart your platform setup\nClick to show or hide setup steps by job function:\nIT administration\nFinOps administration\nSecurity engineering\nDevOps engineering\nApplication development\nData analysis\nIT administration\nEstablish administrators, billing accounts, and other settings in your Google Cloud environment.\nEstablish your organization, administrators, and billing\nCreate an initial architecture\nDeploy or download configuration\nResources for later:\nCloud Quotas overview\nGoogle Cloud deployment archetypes (Architecture Center)\nFinOps administration\nSet up billing, spending notifications, and resource structure to facilitate cost monitoring and optimization.\nLearn about Cloud Billing\nCreate a billing account\nSet up spending notifications\nEnable billing data export for custom reporting\nResources for later:\nMonitor costs using billing reports\nOptimize costs with FinOps hub\nResource hierarchy options for cost tracking\nImplement cost optimization strategies (Architecture Center)\nSecurity engineering\nFamiliarize yourself with core security concepts and tools that impact your security, privacy,\nand compliance controls.\nSet up API access\nInstall the gcloud CLI\nLearn about IAM in Google Cloud\nUnderstand identity management\nLearn about organization policies\nResources for later:\nSoftware supply chain security\nSecurity Command Center overview\nSecurity in the Well-Architected Framework\nDevOps engineering\nStart automating infrastructure and secure collaboration with teammates using Google Cloud tools and best practices.\nSet up API access\nInstall the gcloud CLI\nEnable teammates using IAM\nChoose and install a Cloud Client Library\nLearn about authentication and authorization\nResources for later:\nObservability in Google Cloud\nTerraform and Infrastructure Manager\nCI/CD pipeline for containerized apps (Architecture Center)\nApplication development\nGet basic API access and set up a development environment that can interact with Google Cloud services.\nSet up API access\nInstall the gcloud CLI\nChoose and install a Cloud Client Library\nSet up IDE extensions\nLearn about authentication and authorization\nResources for later:\nBuild a generative AI application\nData analysis\nAnalyze sample data using Google Cloud products with minimal setup.\nLoad and query sample data\nExplore, analyze, and share data\nLearn about programmatic analysis tools\nIntroduction to AI and ML in BigQuery\nResources for later:\nSet up the bq command-line tool\nGemini in BigQuery overview\nData analytics design patterns (Architecture Center)\nwb_iridescent\nJump Start Solutions\nLearn and experiment with pre-built solution templates.\nhome_repair_service\nCloud SDK, languages, frameworks, and tools\nDiscover tools, resources, and products that enable interaction with Google Cloud using code.\nGoogle Cloud Well-Architected Framework\nFollow recommendations and best practices to design and operate a well-architected cloud topology.\nGoogle Cloud products at a glance\nA quick reference for Google Cloud products.\nGoogle Cloud for AWS and Azure users\nCompare AWS and Azure services to Google Cloud.\nTraining & certification\nExplore our curriculum and grow your skills with Google Cloud Training.\nExcept as otherwise noted, the content of this page is licensed under the\nCreative Commons Attribution 4.0 License\n, and code samples are licensed under the\nApache 2.0 License\n. For details, see the\nGoogle Developers Site Policies\n. Java is a registered trademark of Oracle and/or its affiliates.\nLast updated 2025-08-18 UTC.",
+  "word_count": 561,
+  "key_terms": [
+    "authentication",
+    "framework",
+    "configuration",
+    "deployment",
+    "export",
+    "api",
+    "authorization"
+  ]
+}

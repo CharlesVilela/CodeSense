@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Introduction to MongoDB",
+    "url": "https://www.mongodb.com/docs/manual/introduction/",
+    "technology": "mongodb",
+    "category": "database_technologies",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766143.4934268"
+  },
+  "content": "Introduction to MongoDB\nYou can create a MongoDB database in the following environments:\nMongoDB Atlas\n: The fully\nmanaged service for MongoDB deployments in the cloud\nMongoDB Enterprise\nsubscription-based, self-managed version of MongoDB\nMongoDB Community\nsource-available, free-to-use, and self-managed version of MongoDB\nTo learn more about creating a MongoDB database with the Atlas UI,\nGet Started with Atlas\nDocument Database\nA record in MongoDB is a document, which is a data structure composed\nof field and value pairs. MongoDB documents are similar to JSON\nobjects. The values of fields may include other documents, arrays,\nand arrays of documents.\nThe advantages of using documents are:\nDocuments correspond to native data types in many programming\nEmbedded documents and arrays reduce need for expensive joins.\nDynamic schema supports fluent polymorphism.\nCollections/Views/On-Demand Materialized Views\nMongoDB stores documents in\ncollections\nCollections are analogous to tables in relational databases.\nIn addition to collections, MongoDB supports:\nOn-Demand Materialized Views\nKey Features\nHigh Performance\nMongoDB provides high performance data persistence. In particular,\nSupport for embedded data models reduces I/O activity on database\nIndexes support faster queries and can include keys from embedded\ndocuments and arrays.\nThe MongoDB Query API supports\nread and write\noperations (CRUD)\nas well as:\nData Aggregation\nText Search\nGeospatial Queries\nSQL to MongoDB Mapping Chart\nSQL to Aggregation Mapping Chart\nHigh Availability\nMongoDB's replication facility, called\nreplica set\n, provides:\ndata redundancy.\nreplica set\nis a group of\nMongoDB servers that maintain the same data set, providing redundancy\nand increasing data availability.\nHorizontal Scalability\nMongoDB provides horizontal scalability as part of its\nfunctionality:\ndistributes data across a\ncluster of machines.\nStarting in 3.4, MongoDB supports creating\nof data based on the\nbalanced cluster, MongoDB directs reads and writes covered by a zone\nonly to those shards inside the zone. See the\nmanual page for more information.\nSupport for Multiple Storage Engines\nMongoDB supports\nmultiple storage engines\nWiredTiger Storage Engine\n(including support for\nEncryption at Rest\nIn-Memory Storage Engine for Self-Managed Deployments\nIn addition, MongoDB provides pluggable storage engine API that allows\nthird parties to develop storage engines for MongoDB.",
+  "word_count": 345,
+  "key_terms": [
+    "database",
+    "api"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "FAQ",
+    "url": "https://expressjs.com/en/starter/faq.html",
+    "technology": "express",
+    "category": "frameworks",
+    "english_level": "B1",
+    "professional_context": "architecture",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765809.1013591"
+  },
+  "content": "How should I structure my application?\nThere is no definitive answer to this question. The answer depends\non the scale of your application and the team that is involved. To be as\nflexible as possible, Express makes no assumptions in terms of structure.\nRoutes and other application-specific logic can live in as many files\nas you wish, in any directory structure you prefer. View the following\nexamples for inspiration:\nRoute listings\nMVC style controllers\nAlso, there are third-party extensions for Express, which simplify some of these patterns:\nResourceful routing\nHow do I define models?\nExpress has no notion of a database. This concept is\nleft up to third-party Node modules, allowing you to\ninterface with nearly any database.\nfor an Express-based framework that is centered around models.\nHow can I authenticate users?\nAuthentication is another opinionated area that Express does not\nventure into. You may use any authentication scheme you wish.\nFor a simple username / password scheme, see\nthis example\nWhich template engines does Express support?\nExpress supports any template engine that conforms with the\n(path, locals, callback)\nTo normalize template engine interfaces and caching, see the\nconsolidate.js\nproject for support. Unlisted template engines might still support the Express signature.\nFor more information, see\nUsing template engines with Express\nHow do I handle 404 responses?\nIn Express, 404 responses are not the result of an error, so\nthe error-handler middleware will not capture them. This behavior is\nbecause a 404 response simply indicates the absence of additional work to do;\nin other words, Express has executed all middleware functions and routes,\nand found that none of them responded. All you need to\ndo is add a middleware function at the very bottom of the stack (below all other functions)\nto handle a 404 response:\nSorry can't find that!\nAdd routes dynamically at runtime on an instance of\nexpress.Router()\nso the routes are not superseded by a middleware function.\nHow do I setup an error handler?\nYou define error-handling middleware in the same way as other middleware,\nexcept with four arguments instead of three; specifically with the signature\n(err, req, res, next)\nFor more information, see\nError handling\nHow do I render plain HTML?\nYou don’t! There’s no need to “render” HTML with the\nres.render()\nIf you have a specific file, use the\nres.sendFile()\nIf you are serving many assets from a directory, use the\nexpress.static()\nmiddleware function.\nWhat version of Node.js does Express require?\nExpress 4.x\nrequires Node.js 0.10 or higher.\nExpress 5.x\nrequires Node.js 18 or higher.\nPrevious: More examples\nEdit this page",
+  "word_count": 425,
+  "key_terms": [
+    "authentication",
+    "middleware",
+    "function",
+    "framework",
+    "interface"
+  ]
+}

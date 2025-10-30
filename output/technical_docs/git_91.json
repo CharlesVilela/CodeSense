@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "GUI Clients",
+    "url": "https://git-scm.com/tools/guis",
+    "technology": "git",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "collaboration",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766036.855977"
+  },
+  "content": "GUI Clients\nGit comes with built-in GUI tools for committing (\n) and browsing (\n), but there are several third-party tools for users looking for platform-specific experience.\nIf you want to add another GUI tool to this list, just\nfollow the instructions\nGUIs are shown below ↓\nGitHub Desktop\nMac, Windows\nMac, Windows\nProprietary\nTortoiseGit\nGit Extensions\nGitKraken Desktop\nLinux, Mac, Windows\nFree / $48+/user annually\nProprietary\nLinux, Mac, Windows\nLinux, Mac, Windows\nFree for non-commercial use / $59/user annually\nProprietary\nMac, Windows\n$69+/user annually (Free 30-day trial)\nProprietary\nMeGit (based on EGit)\nLinux, Mac, Windows\nSublime Merge\nLinux, Mac, Windows\n$99/user / $75/user annually (Free evaluation)\nProprietary\nMac, Windows\n$59.99 (Free evaluation)\nProprietary\nLinux, Mac, Windows\nFree / $35/user annually\nProprietary\nLinux, Windows\nLinux, Mac, Windows\nLinux, Mac, Windows\nGitAhead (no longer under active development)\nLinux, Mac, Windows\nLinux, Mac, Windows\nLinux, Mac, Windows\nLinux, Mac, Windows\nLinux, Mac, Windows\nAnchorpoint\nMac, Windows\nProprietary\nWorking Copy\nFree / $19.99\nProprietary\n€39,99/user annually / €79,99 (Free 30-day trial)\nProprietary\nLinux, Mac, Windows\nLinux, Mac, Windows\nFree, but donations welcome\ngiggle (no longer under active development)\nAurees (no longer under active development)\nLinux, Mac, Windows\nProprietary\nLinux, Windows\nGPLv2 or later\nFree (limited) / $9.99\nProprietary\nMac, Windows\nProprietary\nFree / $6.99\nProprietary\nLinux, Mac, Windows\nProprietary\n$17.99+/user annually (Free 30-day trial)\nProprietary\nFree for non-commercial use / 20€/user\nProprietary\nFree (limited) / $29.95 (Free 30-day trial)\nProprietary\nLinux, Mac, Windows\nFree for non-commercial use / $37/user annually\nProprietary\nLinux, Mac, Windows\nProprietary\nFree (limited) / $11.99/year / $39.99\nProprietary\nLinux, Mac, Windows\nLinux, Mac, Windows\nFree / $6.99 (Free 7-day trial)\nProprietary\n$5.99/MO (Free 14-day trial)\nProprietary\nLinux, Mac, Windows\nAGPL-3.0-or-later\nLinux, Mac, Windows\nLinux, Mac, Windows\nProprietary\nLinux, Mac, Windows\nGitKraken CLI\nLinux, Mac, Windows\nFree / $48.00+/user annually\nProprietary\nLinux, Mac, Windows\nLinux, Mac, Windows\nLGPL-3.0-or-later\n$49.99/user annually (Free 14-day trial)\nProprietary\nThere are other great GUI tools available as well. Have a look at the list of\ninterfaces, frontends and tools\nin the Git Wiki.",
+  "word_count": 339,
+  "key_terms": []
+}

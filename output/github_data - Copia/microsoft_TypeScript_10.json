@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "tsconfig.json",
+    "url": "https://github.com/microsoft/TypeScript/blob/main/src/server/tsconfig.json",
+    "repo": "microsoft/TypeScript",
+    "file_path": "src/server/tsconfig.json",
+    "file_type": "configuration",
+    "technology": "typescript",
+    "professional_context": "api_reference",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763038.4215236"
+  },
+  "content": "{\r\n    \"extends\": \"../tsconfig-base\",\r\n    \"compilerOptions\": {\r\n        \"types\": [\r\n            \"node\"\r\n        ]\r\n    },\r\n    \"references\": [\r\n        { \"path\": \"../compiler\" },\r\n        { \"path\": \"../jsTyping\" },\r\n        { \"path\": \"../typingsInstallerCore\" },\r\n        { \"path\": \"../services\" },\r\n        { \"path\": \"../deprecatedCompat\" }\r\n    ],\r\n    \"include\": [\"**/*\"]\r\n}\r\n",
+  "word_count": 36,
+  "key_terms": [],
+  "file_info": {
+    "size": 380,
+    "sha": "22a1de22f93b9a084a4243e8b92ec9960f4ca02f",
+    "download_url": "https://raw.githubusercontent.com/microsoft/TypeScript/main/src/server/tsconfig.json"
+  }
+}

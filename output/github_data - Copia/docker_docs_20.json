@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "title": "Docs @ Docker",
+    "url": "https://github.com/docker/docs/blob/main/README.md",
+    "repo": "docker/docs",
+    "file_path": "README.md",
+    "file_type": "markdown",
+    "technology": "docker_docs",
+    "professional_context": "documentation",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763049.6024797"
+  },
+  "content": "# Docs @ Docker\n\n<div align=\"center\">\n<img src=\"static/assets/images/docker-docs.svg\" alt=\"Welcome to Docker Documentation\">\n</div>\n<br/>\n<br/>\n\nWelcome to the Docker Documentation repository. This is the source for the [Docker Docs Website](https://docs.docker.com/).\n\nFeel free to open pull requests or issues. Our docs are completely open source, and we deeply appreciate contributions from the Docker community!\n\n## Provide feedback\n\nWe’d love to hear your feedback! To submit feedback:\n- Click **[New issue](https://github.com/docker/docs/issues/new)** on the docs repository, or\n- Click **Request changes** in the right column of every page on\n  [docs.docker.com](https://docs.docker.com/), or\n- Click **Give feedback** on every page in the docs.\n\nTo get community support, use the [Docker Community Slack](https://dockr.ly/comm-slack). Personalized support is available\nthrough the Docker Pro, Team, and Business subscriptions. See [Docker\nPricing](https://www.docker.com/pricing) for details.\n\nIf you have an idea for a new feature or behavior change in a specific aspect of\nDocker or have found a product bug, file an issue in the project's\nrepository.\n\n## Contribute to Docker docs\n\nSee [CONTRIBUTING.md](CONTRIBUTING.md).\n\n## Copyright and license\n\nCopyright 2013-2025 Docker, Inc., released under the [Apache 2.0 license](https://github.com/docker/docs/blob/main/LICENSE).\n",
+  "word_count": 176,
+  "key_terms": [
+    "docker"
+  ],
+  "file_info": {
+    "size": 1387,
+    "sha": "1db900fbdc11e932b813068d8dd189293dc4116b",
+    "download_url": "https://raw.githubusercontent.com/docker/docs/main/README.md"
+  }
+}

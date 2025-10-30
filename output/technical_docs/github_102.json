@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Git and GitHub learning resources",
+    "url": "https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources",
+    "technology": "github",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "collaboration",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766060.149701"
+  },
+  "content": "Git and GitHub learning resources\nThere are a lot of helpful Git and GitHub resources available.\nIn this article\nUsing GitHub\nBecome better acquainted with GitHub through our\nUsing GitHub\nTo review the fundamentals of a GitHub workflow, see\nGitHub flow\nTo learn about the various tools for working with repositories hosted on GitHub, and how to choose a tool that best suits your needs, see\nConnecting to GitHub\nTo understand the different communication tools on GitHub, such as GitHub Issues, GitHub Discussions, and pull requests, see\nCommunicating on GitHub\nFamiliarize yourself with Git through our series of articles:\nThere are also lots of other online reading resources to help you learn Git:\nOfficial Git project site\nProGit book\nGit command list\nOnline courses\nGitHub Skills offers free interactive courses that are built into GitHub with instant automated feedback and help. Learn to open your first pull request, make your first open source contribution, create a GitHub Pages site, and more. For more information about course offerings, see\nGitHub Skills\nGit branching\nis a free interactive tool for learning and practising Git concepts.\nAn interactive\nonline Git course\nPluralsight\ncan also teach you the basics of Git.\nGitHub's web-based educational programs\nGitHub offers live\nwith a hands-on, project-based approach for those who love the command line and those who don't.\nTraining for your company\nGitHub offers\nin-person classes\ntaught by our highly-experienced educators.\nto ask your training-related questions.\nYou can connect with developers around the world to ask and answer questions, learn, and interact directly with GitHub staff. To get the conversation started, see\nGitHub Community Support",
+  "word_count": 267,
+  "key_terms": []
+}

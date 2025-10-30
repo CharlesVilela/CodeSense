@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Changing your npm username",
+    "url": "https://docs.npmjs.com/changing-your-npm-username",
+    "technology": "npm",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766137.545052"
+  },
+  "content": "Changing your npm username\nIt is not currently possible to change your npm username. You'll need to create a new account and migrate the data to the new account manually.\nnew user account\nwith your desired username\nTransfer your packages\nto your new account.\nIf you are a member of any\norganizations\n, ask the organization administrator to\ninvite your new account to the organization\nDelete your\noriginal account\n. Note that this is permanent, and after 30 days, this account name is available for other people to claim.\nEdit this page on GitHub\ncontributors\nLast edited by\nOctober 23, 2023",
+  "word_count": 101,
+  "key_terms": []
+}

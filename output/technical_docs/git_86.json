@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Learn",
+    "url": "https://git-scm.com/learn",
+    "technology": "git",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "collaboration",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766031.0818853"
+  },
+  "content": "Pro Git Book\nThe entire Pro Git book written\nby Scott Chacon and Ben Straub is available to read online for free.\nPrint copies are available on\nShort videos introducing Git for total beginners.\nWhat is Version Control?\nWhat is Git?\nGet Going with Git\nQuick Wins with Git\nCheat Sheet\nThe most common Git commands, with diagrams illustrating the difference\nbetween merge and rebase.\nExternal Links\nEver-evolving collection of tutorials, books, videos, and other Git resources from the community.",
+  "word_count": 80,
+  "key_terms": []
+}

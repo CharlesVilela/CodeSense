@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Python HOWTOs¶",
+    "url": "https://docs.python.org/3/howto/index.html",
+    "technology": "python",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765673.542473"
+  },
+  "content": "Python HOWTOs\nPython HOWTOs are documents that cover a specific topic in-depth.\nModeled on the Linux Documentation Project’s HOWTO collection, this collection is an\neffort to foster documentation that’s more detailed than the\nPython Library Reference.\nA Conceptual Overview of asyncio\nAnnotations Best Practices\nArgparse Tutorial\nDescriptor Guide\nFunctional Programming HOWTO\nAn introduction to the ipaddress module\nLogging HOWTO\nLogging Cookbook\nRegular Expression HOWTO\nSorting Techniques\nUnicode HOWTO\nHOWTO Fetch Internet Resources Using The urllib Package\nAdvanced development:\nCurses Programming with Python\nPython support for free threading\nC API Extension Support for Free Threading\nIsolating Extension Modules\nThe Python 2.3 Method Resolution Order\nSocket Programming HOWTO\ntimer file descriptor HOWTO\nPorting Extension Modules to Python 3\nDebugging and profiling:\nDebugging C API extensions and CPython Internals with GDB\nInstrumenting CPython with DTrace and SystemTap\nPython support for the Linux perf profiler\nRemote debugging attachment protocol",
+  "word_count": 145,
+  "key_terms": [
+    "api",
+    "method"
+  ]
+}

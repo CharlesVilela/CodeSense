@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Getting Started",
+    "url": "https://doc.rust-lang.org/book/ch01-00-getting-started.html",
+    "technology": "rust",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765729.2344213"
+  },
+  "content": "Getting Started\nLet’s start your Rust journey! There’s a lot to learn, but every journey starts\nsomewhere. In this chapter, we’ll discuss:\nInstalling Rust on Linux, macOS, and Windows\nWriting a program that prints\nHello, world!\n, Rust’s package manager and build system",
+  "word_count": 43,
+  "key_terms": []
+}

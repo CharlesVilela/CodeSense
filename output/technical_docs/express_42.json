@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Installing",
+    "url": "https://expressjs.com/en/starter/installing.html",
+    "technology": "express",
+    "category": "frameworks",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765802.4673734"
+  },
+  "content": "Assuming you’ve already installed\n, create a directory to hold your application, and make that your working directory.\nExpress 4.x\nrequires Node.js 0.10 or higher.\nExpress 5.x\nrequires Node.js 18 or higher.\ncommand to create a\npackage.json\nfile for your application.\nFor more information on how\npackage.json\nSpecifics of npm’s package.json handling\nThis command prompts you for a number of things, such as the name and version of your application.\nFor now, you can simply hit RETURN to accept the defaults for most of them, with the following exception:\nentry point: (index.js)\n, or whatever you want the name of the main file to be. If you want it to be\n, hit RETURN to accept the suggested default file name.\nNow, install Express in the\ndirectory and save it in the dependencies list. For example:\nTo install Express temporarily and not add it to the dependencies list:\nBy default with version npm 5.0+,\nnpm install\nadds the module to the\ndependencies\nlist in the\npackage.json\nfile; with earlier versions of npm, you must specify the\noption explicitly. Then, afterwards, running\nnpm install\nin the app directory will automatically install modules in the dependencies list.\nNext: Hello World\nEdit this page",
+  "word_count": 201,
+  "key_terms": [
+    "return"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Use Cases",
+    "url": "https://go.dev/solutions/use-cases",
+    "technology": "go",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765714.713662"
+  },
+  "content": "Cloud & Network Services\nWith a strong ecosystem of tools and APIs on major cloud providers, it is easier than ever to build services with Go.\nCommand-line Interfaces (CLIs)\nWith popular open source packages and a robust standard library, use Go to create fast and elegant CLIs.\nWeb Development\nWith enhanced memory performance and support for several IDEs, Go powers fast and scalable web applications.\nDevelopment Operations & Site Reliability Engineering\nWith fast build times, lean syntax, an automatic formatter and doc generator, Go is built to support both DevOps and SRE.\nOpens in new window.",
+  "word_count": 96,
+  "key_terms": []
+}

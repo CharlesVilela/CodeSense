@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Docker Compose",
+    "url": "https://docs.docker.com/compose/",
+    "technology": "docker",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765823.11843"
+  },
+  "content": "Start typing to search or try\nContact support\nGet started\nDocker Compose\nPage options\nCopy page as Markdown for LLMs\nView page as plain text\nAsk questions with Docs AI\nOpen in Claude\nDocker Compose is a tool for defining and running multi-container applications.\nIt is the key to unlocking a streamlined and efficient development and deployment experience.\nCompose simplifies the control of your entire application stack, making it easy to manage services, networks, and volumes in a single YAML configuration file. Then, with a single command, you create and start all the services\nfrom your configuration file.\nCompose works in all environments - production, staging, development, testing, as\nwell as CI workflows. It also has commands for managing the whole lifecycle of your application:\nStart, stop, and rebuild services\nView the status of running services\nStream the log output of running services\nRun a one-off command on a service\nWhy use Compose?\nUnderstand Docker Compose's key benefits\nHow Compose works\nUnderstand how Compose works\nInstall Compose\nFollow the instructions on how to install Docker Compose.\nLearn the key concepts of Docker Compose whilst building a simple Python web application.\nView the release notes\nFind out about the latest enhancements and bug fixes.\nExplore the Compose file reference\nFind information on defining services, networks, and volumes for a Docker application.\nUse Compose Bridge\nTransform your Compose configuration file into configuration files for different platforms, such as Kubernetes.\nBrowse common FAQs\nExplore general FAQs and find out how to give feedback.\nMigrate to Compose v2\nLearn how to migrate from Compose v1 to v2\nEdit this page\nRequest changes",
+  "word_count": 268,
+  "key_terms": [
+    "deployment",
+    "configuration"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/de/docs/tutorials/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "debugging",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765949.989532"
+  },
+  "content": "Information in this document may be out of date\nThis document has an older update date than the original, so the information it contains may be out of date. If you're able to read English, see the English version for the most up-to-date information:\nDieser Abschnitt der Kubernetes-Dokumentation enthält Tutorials.\nEin Tutorial zeigt, wie Sie ein Ziel erreichen, das größer ist als eine einzelne\nEin Tutorial besteht normalerweise aus mehreren Abschnitten, die jeweils eine Abfolge von Schritten haben.\nBevor Sie die einzelnen Lernprogramme durchgehen, möchten Sie möglicherweise ein Lesezeichen zur Seite mit dem\nStandardisierten Glossar\nsetzen um später Informationen nachzuschlagen.\nKubernetes Basics\nist ein ausführliches interaktives Lernprogramm, das Ihnen hilft, das Kubernetes-System zu verstehen und einige grundlegende Kubernetes-Funktionen auszuprobieren.\nScalable Microservices mit Kubernetes (Udacity)\nEinführung in Kubernetes (edX)\nHello Minikube\nKonfiguration\nRedis mit einer ConfigMap konfigurieren\nStateless Anwendungen\nFreigeben einer externen IP-Adresse für den Zugriff auf eine Anwendung in einem Cluster\nBeispiel: Bereitstellung der PHP-Gästebuchanwendung mit Redis\nStateful Anwendungen\nStatefulSet Grundlagen\nBeispiel: WordPress und MySQL mit persistenten Volumes\nBeispiel: Bereitstellen von Cassandra mit Stateful-Sets\nZooKeeper, ein verteiltes CP-System\nSource IP verwenden\nNächste Schritte\nWenn Sie ein Tutorial schreiben möchten, lesen Sie\nSeitenvorlagen verwenden\nfür weitere Informationen zum Typ der Tutorial-Seite und zur Tutorial-Vorlage.\nHallo Minikube\nKubernetes Grundlagen lernen\nWar diese Seite hilfreich?\nDanke für die Rückmeldung. Wenn Sie eine spezifische, beantwortbare Frage zur Verwendung von Kubernetes haben, stellen Sie diese unter\nStack Overflow\nÖffnen Sie ein Problem im GitHub-Repo, wenn Sie möchten\nEin Problem melden\nEine Verbesserung vorschlagen\nZuletzt geändert November 22, 2023 at 1:38 AM PST:\n[de] Remove some vertical space between lines of text (66c452a1ae)",
+  "word_count": 267,
+  "key_terms": []
+}

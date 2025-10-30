@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Install the latest version of Go",
+    "url": "https://go.dev/learn/",
+    "technology": "go",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765717.0770953"
+  },
+  "content": "Install the latest version of Go\nInstall the latest version of Go. For instructions to download and install\nthe Go compilers, tools, and libraries,\nview the install documentation.\nSelected tutorials\nNew to Go and don't know where to start?\nDocumentation\nEverything there is to know about Go. Get started on a new project or brush up for your existing Go code.\nView documentation\nAn interactive introduction to Go in four sections. Each section concludes with a few exercises so you can practice what you've learned.\nTake a tour\nGo by example\nGo by Example\nis a hands-on introduction to Go using annotated example programs. It’s a great starting point to use when tackling any Go project.\nView examples\nGuided learning journeys\nGot the basics and want to learn more?\nGo Web Examples provides easy to understand code snippets on how to use Go for web development.\nThis workshop will walk you through building a CLI app with Go, introducing you to basic Go principles and CLI frameworks along the way.\nNew to coding?\nGet started with this introductory course covering basic programming principles and Go fundamentals.\nGuided tours of Go programs\nDeploy Go Apps on Google Cloud Serverless Platforms\nUse Go Code to Work with Google Cloud Data Sources\nGetting Started with Go on App Engine\nGetting started\nIn this tutorial, you'll get a brief introduction to Go programming. Along the way, you will install Go, write some simple \"Hello, world\" code, use the go command to run your code, use the Go package discovery tool, and call functions of an external module.\nCreate a module\nThis is the first part of a tutorial that introduces a few fundamental features of the Go language. In this tutorial you'll create two modules. The first is a library which is intended to be imported by other libraries or applications. The second is a caller application which will use the first.\nDeveloping a web service\nThis tutorial introduces the basics of writing a RESTful web service API with Go and the Gin Web Framework. In this tutorial, you will build a RESTful API server with two endpoints.\nInteractive Tutorial\nGuided tours of Go programs\nOffering customized on-site live training classes.\nGopher Guides\nCustomized In-person, remote, and online training classes. Training for Developers by Developers.\nBoss Sauce Creative\nPersonalized or track-based Go training for teams.\nShiju Varghese\nOn-site classroom training on Go and consulting on distributed systems architectures, in India.\nThe Go Programming Language\nAlan A. A. Donovan, Brian W. Kernighan\nManning.com\nGet Programming with Go\nNathan Youngman, Roger Peppé\nGo Programming Blueprints\nThis is the official source code repository for the book.\nO'Reilly.com\nIntroducing Go\nCaleb Doxsey\nO'Reilly.com\nConcurrency in Go\nKatherine Cox-Buday",
+  "word_count": 450,
+  "key_terms": [
+    "api"
+  ]
+}

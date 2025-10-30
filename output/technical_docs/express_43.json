@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Hello world example",
+    "url": "https://expressjs.com/en/starter/hello-world.html",
+    "technology": "express",
+    "category": "frameworks",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765803.564246"
+  },
+  "content": "Hello world example\nEmbedded below is essentially the simplest Express app you can create. It is a single file app —\nwhat you’d get if you use the\nExpress generator\n, which creates the scaffolding for a full app with numerous JavaScript files, Jade templates, and sub-directories for various purposes.\nThis app starts a server and listens on port 3000 for connections. The app responds with “Hello World!” for requests\nto the root URL (\n. For every other path, it will respond with a\n404 Not Found\nRunning Locally\nFirst create a directory named\n, change to it and run\n. Then, install\nas a dependency, as per the\ninstallation guide\ndirectory, create a file named\nand copy the code from the example above.\n(request) and\n(response) are the exact same objects that Node provides, so you can invoke\nreq.on('data', callback)\n, and anything else you would do without Express involved.\nRun the app with the following command:\nnode app.js\nhttp://localhost:3000/\nin a browser to see the output.\nPrevious: Installing\nNext: Express Generator\nEdit this page",
+  "word_count": 177,
+  "key_terms": []
+}

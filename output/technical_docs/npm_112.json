@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "About npm",
+    "url": "https://docs.npmjs.com/about-npm",
+    "technology": "npm",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "debugging",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766117.9096258"
+  },
+  "content": "See Details\nTable of contents\nnpm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.\nnpm consists of three distinct components:\nthe website\nthe Command Line Interface (CLI)\nthe registry\nto discover packages, set up profiles, and manage other aspects of your npm experience. For example, you can set up\norganizations\nto manage access to public or private packages.\nruns from a terminal, and is how most developers interact with npm.\nis a large public database of JavaScript software and the meta-information surrounding it.\nUse npm to . . .\nAdapt packages of code for your apps, or incorporate packages as they are.\nDownload standalone tools you can use right away.\nRun packages without downloading using\nShare code with any npm user, anywhere.\nRestrict code to specific developers.\nCreate organizations to coordinate package maintenance, coding, and developers.\nForm virtual teams by using organizations.\nManage multiple versions of code and code dependencies.\nUpdate applications easily when underlying code is updated.\nDiscover multiple ways to solve the same puzzle.\nFind other developers who are working on similar problems and projects.\nGetting started\nTo get started with npm, you can\ncreate an account\n, which will be available at\nhttp://www.npmjs.com/~yourusername\nAfter you set up an npm account, the next step is to use the command line interface (CLI) to\ninstall npm\n. We look forward to seeing what you create!\nSharing packages and collaborating with others\nIf you choose to share your packages publicly, there is no cost. To use and share private packages, you need to upgrade your account. To share with others, create organizations, called\nnpm organizations\n, and invite others to work with you, privately (for a fee) or publicly (for free).\nYou can also use a private npm package registry like\nGitHub Packages\nor the open source\nproject. This lets you develop packages internally that are not shared publicly.\nTo learn more about npm as a product, upcoming new features, and interesting uses of npm be sure to follow\non Twitter.\nFor mentoring, tutorials, and learning, visit\nnode school\n. Consider attending or hosting a nodeschool event (usually free!) at a site near you, or use the self-help tools you can find on the site.\nCLI reference documentation\nWhile relevant CLI commands are covered throughout this user documentation, the CLI includes command line help, its own\ndocumentation section, and instant help (man pages)\nEdit this page on GitHub\ncontributors\nMylesBorins\nLast edited by\nOctober 23, 2023",
+  "word_count": 428,
+  "key_terms": [
+    "database",
+    "interface"
+  ]
+}

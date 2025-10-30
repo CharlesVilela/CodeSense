@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Tutorial¶",
+    "url": "https://flask.palletsprojects.com/en/stable/tutorial/",
+    "technology": "flask",
+    "category": "frameworks",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765815.7975008"
+  },
+  "content": "Project Layout\nApplication Setup\nDefine and Access the Database\nBlueprints and Views\nStatic Files\nBlog Blueprint\nMake the Project Installable\nTest Coverage\nDeploy to Production\nKeep Developing!\nThis tutorial will walk you through creating a basic blog application\ncalled Flaskr. Users will be able to register, log in, create posts,\nand edit or delete their own posts. You will be able to package and\ninstall the application on other computers.\nIt’s assumed that you’re already familiar with Python. The\nin the Python docs is a great way to learn or review first.\nWhile it’s designed to give a good starting point, the tutorial doesn’t\ncover all of Flask’s features. Check out the\noverview of what Flask can do, then dive into the docs to find out more.\nThe tutorial only uses what’s provided by Flask and Python. In another\nproject, you might decide to use\nor other libraries\nto make some tasks simpler.\nFlask is flexible. It doesn’t require you to use any particular project\nor code layout. However, when first starting, it’s helpful to use a more\nstructured approach. This means that the tutorial will require a bit of\nboilerplate up front, but it’s done to avoid many common pitfalls that\nnew developers encounter, and it creates a project that’s easy to expand\non. Once you become more comfortable with Flask, you can step out of\nthis structure and take full advantage of Flask’s flexibility.\nThe tutorial project is available as an example in the Flask\n, if you want to compare your project\nwith the final product as you follow the tutorial.\nContinue to\nProject Layout",
+  "word_count": 268,
+  "key_terms": [
+    "database"
+  ]
+}

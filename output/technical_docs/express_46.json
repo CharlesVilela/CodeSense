@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Serving static files in Express",
+    "url": "https://expressjs.com/en/starter/static-files.html",
+    "technology": "express",
+    "category": "frameworks",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765806.9269695"
+  },
+  "content": "Serving static files in Express\nTo serve static files such as images, CSS files, and JavaScript files, use the\nexpress.static\nbuilt-in middleware function in Express.\nThe function signature is:\nargument specifies the root directory from which to serve static assets.\nFor more information on the\nargument, see\nexpress.static\nFor example, use the following code to serve images, CSS files, and JavaScript files in a directory named\nNow, you can load the files that are in the\nExpress looks up the files relative to the static directory, so the name of the static directory is not part of the URL.\nTo use multiple static assets directories, call the\nexpress.static\nmiddleware function multiple times:\nExpress looks up the files in the order in which you set the static directories with the\nexpress.static\nmiddleware function.\nFor best results,\nuse a reverse proxy\ncache to improve performance of serving static assets.\nTo create a virtual path prefix (where the path does not actually exist in the file system) for files that are served by the\nexpress.static\nspecify a mount path\nfor the static directory, as shown below:\nNow, you can load the files that are in the\ndirectory from the\npath prefix.\nHowever, the path that you provide to the\nexpress.static\nfunction is relative to the directory from where you launch your\nprocess. If you run the express app from another directory, it’s safer to use the absolute path of the directory that you want to serve:\nFor more details about the\nserve-static\nfunction and its options, see\nserve-static\nPrevious: Basic Routing\nNext: More examples\nEdit this page",
+  "word_count": 264,
+  "key_terms": [
+    "middleware",
+    "function"
+  ]
+}

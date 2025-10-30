@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/zh-cn/docs/tutorials/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765934.9241416"
+  },
+  "content": "Kubernetes 文档的这一部分包含教程。\n每个教程展示了如何完成一个比单个\n通常一个教程有几个部分，每个部分都有一系列步骤。在浏览每个教程之前，\n页面添加到书签，供以后参考。\nKubernetes 基础知识\n是一个深入的交互式教程，帮助你理解 Kubernetes 系统，并尝试一些基本的 Kubernetes 特性。\nKubernetes 介绍 (edX)\n你好 Minikube\n使用 ConfigMap 配置 Redis\n采用 Sidecar 容器\n示例：使用 Redis 部署 PHP 留言板应用程序\nStatefulSet 基础\n示例：WordPress 和 MySQL 使用持久卷\n示例：使用有状态集部署 Cassandra\n运行 ZooKeeper，CP 分布式系统\n使用 Service 连接到应用\n在集群级别应用 Pod 安全标准\n在名字空间级别应用 Pod 安全标准\n使用 AppArmor 限制容器对资源的访问\n以独立模式运行 kubelet\n如果你要编写教程，请参阅\n以获取有关教程页面类型的信息。\n感谢反馈。如果你有一个关于如何使用 Kubernetes 的具体问题需要答案，可以访问\nStack Overflow\n最后修改 August 21, 2025 at 8:47 AM PST:\n[zh-cn]sync tutorials/_index.md (46b83cbb5e)",
+  "word_count": 72,
+  "key_terms": []
+}

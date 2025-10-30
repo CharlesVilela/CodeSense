@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Command Line Tools",
+    "url": "https://git-scm.com/tools/command-line",
+    "technology": "git",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "collaboration",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766035.652938"
+  },
+  "content": "Command Line Tools\n: simple terminal UI for git commands\n: ncurses-based text-mode interface for git\n: A utility tool powered by fzf for using git interactively\n: A TUI Git client inspired by Magit\n: Blazing fast terminal-ui for Git written in Rust\nManage Git history\n: git commit --fixup, but automatic\ngit-filter-repo\n:  Quickly rewrite git repository history (filter-branch replacement)\n: Incremental merge for Git\n: A syntax-aware git merge driver for a growing collection of programming languages and file formats.\ngit-branchless\n: Branchless workflow for Git\nShell prompt integrations\nThese let you put your current Git branch (and more) in your shell prompt:\n: The minimal, blazing-fast, and infinitely customizable prompt for any shell!\ngit-prompt.sh\n: Bash prompt that comes with Git\nManage large files\n: A syntax highlighting pager for Git diffs\n: A structural diff that understands syntax\ndiff-so-fancy\n: diff-so-fancy strives to make your diffs human readable instead of machine readable\nManage hooks\n:  A framework for managing and maintaining multi-language pre-commit hooks.\n: A fast Git hooks manager written in Go\nCollections of Git tools\n: Git repo summary, repl, changelog population, author commit percentages and more\ngit-toolbelt\n: A suite of useful Git commands that aid with scripting or every day command line usage\n: Fast git handover for remote pair/mob programming.\ngit-secrets\n: Prevents you from committing secrets and credentials into git repositories\n: Create committing rules for projects, auto bump versions and auto changelog generation\n: Additional Git commands that automate the creation, synchronization, shipping, and cleanup of Git branches",
+  "word_count": 260,
+  "key_terms": [
+    "framework",
+    "interface"
+  ]
+}

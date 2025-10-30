@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/fr/docs/tutorials/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "debugging",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765945.1247625"
+  },
+  "content": "Information in this document may be out of date\nThis document has an older update date than the original, so the information it contains may be out of date. If you're able to read English, see the English version for the most up-to-date information:\nCette section de la documentation de Kubernetes contient des tutoriels.\nUn tutoriel montre comment atteindre un objectif qui est plus grand qu'une simple\n. Il contient différentes sections, et une section contient différentes étapes.\nAvant d'explorer chacun des tutoriels, il peut-être utile de garder un signet pour le\nGlossaire standardisé\npour pouvoir le consulter plus facilement par la suite.\nElémentaires\nKubernetes Élémentaire (EN)\nest un tutoriel interactif en profondeur qui vous aidera à comprendre le système de Kubernetes et de commencer avec des fonctionnalités élémentaires de Kubernetes.\nMicroservices Evolutifs avec Kubernetes (Udacity) (EN)\nIntroduction à Kubernetes (edX) (EN)\nBonjour Minikube!(FR)\nConfiguration\nConfigurer Redis en utilisant un ConfigMap (EN)\nApplications Sans États (stateless applications)\nExposer une adresse IP externe pour accéder a une application dans un cluster (EN)\nExemple: Déployer l'application PHP Guestbook avec Redis (EN)\nApplications Avec États (stateful applications)\nStatefulSet Élémentaire (EN)\nExemple: WordPress et MySQL avec des Persistent Volumes (volumes persistants) (EN)\nExemple: Déployer Cassandra avec un StatefulSet (EN)\nExécuter ZooKeeper, un système distribué CP (EN)\nAppArmor (EN)\nUtiliser Source IP (EN)\nSi vous voulez écrire un tutoriel, regardez la section des modèles de page de tutoriel dans l'\nUtilisation des modèles de pages\nBienvenue sur Minikube\nApprendre les bases de Kubernetes\nFormations en ligne\nConfiguration\nApplications sans états\nApplications avec états\nCette page est elle utile ?\nThanks for the feedback. If you have a specific, answerable question about how to use Kubernetes, ask it on\nStack Overflow\nOpen an issue in the\nGitHub Repository\nif you want to\nreport a problem\nsuggest an improvement\nDernière modification August 20, 2020 at 10:20 AM PST:\nremove CI/CD Pipeline section in content/fr/docs/tutorials/_index.md (1fe3a057fe)",
+  "word_count": 318,
+  "key_terms": [
+    "configuration"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://kubernetes.io/docs/concepts/",
+    "technology": "kubernetes",
+    "category": "devops_cloud",
+    "english_level": "B1",
+    "professional_context": "debugging",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765832.4680867"
+  },
+  "content": "The Concepts section helps you learn about the parts of the Kubernetes system and the abstractions Kubernetes uses to represent your\n, and helps you obtain a deeper understanding of how Kubernetes works.\nKubernetes is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.\nCluster Architecture\nThe architectural concepts behind Kubernetes.\nTechnology for packaging an application along with its runtime dependencies.\nUnderstand Pods, the smallest deployable compute object in Kubernetes, and the higher-level abstractions that help you to run them.\nServices, Load Balancing, and Networking\nConcepts and resources behind networking in Kubernetes.\nWays to provide both long-term and temporary storage to Pods in your cluster.\nConfiguration\nResources that Kubernetes provides for configuring Pods.\nConcepts for keeping your cloud-native workload secure.\nManage security and best-practices with policies.\nScheduling, Preemption and Eviction\nCluster Administration\nLower-level detail relevant to creating or administering a Kubernetes cluster.\nWindows in Kubernetes\nKubernetes supports nodes that run Microsoft Windows.\nExtending Kubernetes\nDifferent ways to change the behavior of your Kubernetes cluster.\nWas this page helpful?\nThanks for the feedback. If you have a specific, answerable question about how to use Kubernetes, ask it on\nStack Overflow\nOpen an issue in the\nGitHub Repository\nif you want to\nreport a problem\nsuggest an improvement\nLast modified June 22, 2020 at 11:01 PM PST:\nAdd descriptions to Concept sections (3ff7312cff)",
+  "word_count": 246,
+  "key_terms": [
+    "object",
+    "configuration"
+  ]
+}

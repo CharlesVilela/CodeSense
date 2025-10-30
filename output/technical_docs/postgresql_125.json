@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Untitled",
+    "url": "https://www.postgresql.org/docs/current/tutorial-start.html",
+    "technology": "postgresql",
+    "category": "database_technologies",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766149.521088"
+  },
+  "content": "Chapter 1. Getting Started\nPart I. Tutorial\nChapter 1. Getting Started\nTable of Contents\n1.1. Installation\n1.2. Architectural Fundamentals\n1.3. Creating a Database\n1.4. Accessing a Database\nPart I. Tutorial\n1.1. Installation",
+  "word_count": 32,
+  "key_terms": [
+    "database"
+  ]
+}

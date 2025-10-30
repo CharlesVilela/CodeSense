@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Rust by Example",
+    "url": "https://doc.rust-lang.org/rust-by-example/",
+    "technology": "rust",
+    "category": "programming_languages",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765729.4419928"
+  },
+  "content": "Rust by Example\nis a modern systems programming language focusing on safety, speed,\nand concurrency. It accomplishes these goals by being memory safe without using\ngarbage collection.\nRust by Example (RBE) is a collection of runnable examples that illustrate various Rust\nconcepts and standard libraries. To get even more out of these examples, don't forget\ninstall Rust locally\nand check out the\nofficial docs\nAdditionally for the curious, you can also\ncheck out the source code for this site\nNow let's begin!\nHello World\n- Start with a traditional Hello World program.\n- Learn about signed integers, unsigned integers and other primitives.\nCustom Types\nVariable Bindings\n- mutable bindings, scope, shadowing.\n- Learn about changing and defining types.\n- Convert between different types, such as strings, integers, and floats.\nExpressions\n- Learn about Expressions & how to use them.\nFlow of Control\n, and others.\n- Learn about Methods, Closures and Higher Order Functions.\n- Organize code using modules\n- A crate is a compilation unit in Rust. Learn to create a library.\n- Go through some basic features of the official Rust package management tool.\n- An attribute is metadata applied to some module, crate or item.\n- Learn about writing a function or data type which can work for multiple types of arguments.\nScoping rules\n- Scopes play an important part in ownership, borrowing, and lifetimes.\n- A trait is a collection of methods defined for an unknown type:\n- Macros are a way of writing code that writes other code, which is known as metaprogramming.\nError handling\n- Learn Rust way of handling failures.\nStd library types\n- Learn about some custom types provided by\n- More custom types for file handling, threads.\n- All sorts of testing in Rust.\nUnsafe Operations\n- Learn about entering a block of unsafe operations.\nCompatibility\n- Handling Rust's evolution and potential compatibility issues.\n- Documentation, Benchmarking.",
+  "word_count": 316,
+  "key_terms": [
+    "variable",
+    "function"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "`react`",
+    "url": "https://github.com/facebook/react/blob/main/packages/react/README.md",
+    "repo": "facebook/react",
+    "file_path": "packages/react/README.md",
+    "file_type": "markdown",
+    "technology": "react",
+    "professional_context": "api_reference",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763024.7485342"
+  },
+  "content": "# `react`\n\nReact is a JavaScript library for creating user interfaces.\n\nThe `react` package contains only the functionality necessary to define React components. It is typically used together with a React renderer like `react-dom` for the web, or `react-native` for the native environments.\n\n**Note:** by default, React will be in development mode. The development version includes extra warnings about common mistakes, whereas the production version includes extra performance optimizations and strips all error messages. Don't forget to use the [production build](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build) when deploying your application.\n\n## Usage\n\n```js\nimport { useState } from 'react';\nimport { createRoot } from 'react-dom/client';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  return (\n    <>\n      <h1>{count}</h1>\n      <button onClick={() => setCount(count + 1)}>\n        Increment\n      </button>\n    </>\n  );\n}\n\nconst root = createRoot(document.getElementById('root'));\nroot.render(<Counter />);\n```\n\n## Documentation\n\nSee https://react.dev/\n\n## API\n\nSee https://react.dev/reference/react\n",
+  "word_count": 138,
+  "key_terms": [
+    "api",
+    "import",
+    "function"
+  ],
+  "file_info": {
+    "size": 1158,
+    "sha": "20a855efd3c067a74dff4799c1ff470e3189d231",
+    "download_url": "https://raw.githubusercontent.com/facebook/react/main/packages/react/README.md"
+  }
+}

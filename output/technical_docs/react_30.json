@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Translations",
+    "url": "https://react.dev/community/translations",
+    "technology": "react",
+    "category": "frameworks",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761765744.2022705"
+  },
+  "content": "Translations\nReact docs are translated by the global community into many languages all over the world.\nSource site\nAll translations are provided from the canonical source docs:\nFull translations\nSimplified Chinese\nIn-progress translations\nFor the progress of each translation, see:\nIs React Translated Yet?\nAzerbaijani\nAzərbaycanca\nBahasa Indonesia\nPortuguese (Brazil)\nPortuguês do Brasil\nTraditional Chinese\nHow to contribute\nYou can contribute to the translation efforts!\nThe community conducts the translation work for the React docs on each language-specific fork of react.dev. Typical translation work involves directly translating a Markdown file and creating a pull request. Click the “contribute” link above to the GitHub repository for your language, and follow the instructions there to help with the translation effort.\nIf you want to start a new translation for your language, visit:\ntranslations.react.dev\nDocs Contributors\nAcknowledgements",
+  "word_count": 134,
+  "key_terms": []
+}

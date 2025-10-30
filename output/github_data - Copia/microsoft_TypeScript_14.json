@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "How does TypeScript formatting work?",
+    "url": "https://github.com/microsoft/TypeScript/blob/main/src/services/formatting/README.md",
+    "repo": "microsoft/TypeScript",
+    "file_path": "src/services/formatting/README.md",
+    "file_type": "markdown",
+    "technology": "typescript",
+    "professional_context": "api_reference",
+    "english_level": "B1",
+    "content_type": "github_documentation",
+    "last_updated": "1761763042.4959626"
+  },
+  "content": "# How does TypeScript formatting work?\r\n\r\nTo format code you need to have a formatting context and a `SourceFile`.  The formatting context contains \r\nall user settings like tab size, newline character, etc.\r\n\r\nThe end result of formatting is represented by TextChange objects which hold the new string content, and \r\nthe text to replace it with. \r\n\r\n```ts\r\nexport interface TextChange {\r\n    span: TextSpan; // start, length\r\n    newText: string;\r\n}\r\n```\r\n\r\n## Internals\r\n\r\nMost of the exposed APIs internally are `format*` and they all set up and configure `formatSpan` which could be considered the root call for formatting. Span in this case refers to the range of \r\nthe sourcefile which should be formatted. \r\n\r\nThe formatSpan then uses a scanner (either with or without JSX support) which starts at the highest\r\nnode the covers the span of text and recurses down through the node's children.\r\n\r\nAs it recurses, `processNode` is called on the children setting the indentation is decided and passed \r\nthrough into each of that node's children.\r\n\r\nThe meat of formatting decisions is made via `processPair`, the pair here being the current node and the previous node. `processPair` which mutates the formatting context to represent the current place in the scanner and requests a set of rules which can be applied to the items via `createRulesMap`.\r\n\r\nThere are a lot of rules, which you can find in [rules.ts](./rules.ts) each one has a left and right reference to nodes or token ranges and note of what action should be applied by the formatter.\r\n\r\n### Where is this used?\r\n\r\nThe formatter is used mainly from any language service operation that inserts or modifies code.  The formatter is not exported publicly, and so all usage can only come through the language server.\r\n",
+  "word_count": 287,
+  "key_terms": [
+    "interface",
+    "export",
+    "typescript"
+  ],
+  "file_info": {
+    "size": 1778,
+    "sha": "33515db34b4fabd90b53f06dbae821f2134fe700",
+    "download_url": "https://raw.githubusercontent.com/microsoft/TypeScript/main/src/services/formatting/README.md"
+  }
+}

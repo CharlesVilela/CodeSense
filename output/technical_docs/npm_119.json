@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "Recovering your 2FA-enabled account",
+    "url": "https://docs.npmjs.com/recovering-your-2fa-enabled-account",
+    "technology": "npm",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766133.9017"
+  },
+  "content": "Recovering your 2FA-enabled account\nSee Details\nTable of contents\nWhen you have two-factor access enabled on your account, and you lose access to your 2FA device, you may be able to recover your account using the following methods.\nMisplaced second factor device\nIf you have misplaced the device that provided second-factor authentication, you can use the recovery codes generated when you\nenabled 2FA\nto access your account.\nUsing recovery code on the web\nLocate the recovery codes generated that you have saved.\nOn the npm \"\n\" page, enter your account details and click\nOn the \"Two-Factor Authentication\" page, click\nUse a recovery code or request a reset\nEnter an unused recovery code in the \"Use a Recovery Code\" prompt.\nYou are now logged into npm.\n(Optional) To disable 2FA, see \"\nDisabling 2FA\nViewing and regenerating recovery code\nOnce you regenerate a set of code, all previous recovery codes become invalid. Each code can be used only once.\nOn the npm \"\n\" page, enter your account details and click\nIn the upper right corner of the page, click your profile picture, then click\nOn the account settings page, under \"Two-Factor Authentication\", click\nClick \"Manage Recovery Codes\" to view your recovery codes.\nClick \"Regenerate Code\" to generate a new set of codes.\nMisplaced recovery codes\nIf you have misplaced both your 2FA device and your recovery codes, you can contact our support team to attempt to recover your account. Provide as much information as possible to help us expedite the request faster.\nOn the npm \"\n\" page, enter your account details and click\nOn the \"Two-Factor Authentication\" page, click\nUse a recovery code or request a reset\nUnder the \"Use a Recovery Code\" form, click\nTry recovering your account\nOn the \"Request an Account Recovery\" page, click\nStart Account Recovery\nIf you have access to your registered email, enter the one-time password sent to your email in the\nOne-Time Password\nfield, then click\nVerify Email Address\nIf you do not have access to your registered email, select\nSkip email verification\nat the bottom of the form.\nIn the \"Open a Support Ticket\" form, enter the following information:\nfield, enter an email address where our support team can contact you.\nHow can we help?\nsection, select\nReset my two-factor authentication (2FA)\nIf you need help with anything else, in the\nHow can we help?\nsection, select\nand enter more information in the\nAdditional Details\nIf you have previously linked a GitHub account to your npm account, select\nConnect to GitHub\n. This will help our support team verify your account.\nIf you have previously linked a Twitter account to your npm account, select\nConnect to Twitter\n. This will help our support team verify your account.\nAt the bottom of the form, click\nSubmit Support Ticket\nEdit this page on GitHub\ncontributors\ndependabot[bot]\nLast edited by\nOctober 13, 2025",
+  "word_count": 480,
+  "key_terms": [
+    "authentication"
+  ]
+}

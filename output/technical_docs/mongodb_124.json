@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "MongoDB CRUD Operations",
+    "url": "https://www.mongodb.com/docs/manual/crud/",
+    "technology": "mongodb",
+    "category": "database_technologies",
+    "english_level": "B1",
+    "professional_context": "deployment",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766145.6780763"
+  },
+  "content": "Development\nDevelopment\nDevelopment\nMongoDB CRUD Operations\nCRUD operations\nYou can connect with driver methods and perform CRUD operations\nfor deployments hosted in the following environments:\nperform CRUD operations in the UI\nfor deployments hosted in\nMongoDB Atlas\nCreate Operations\nCreate or insert operations add new\ncollection does not currently exist, insert operations will create the\ncollection.\nMongoDB provides the following methods to insert documents into a\ncollection:\ndb.collection.insertOne()\ndb.collection.insertMany()\nIn MongoDB, insert operations target a single\nwrite operations in MongoDB are\non the level of a single\nFor examples, see\nInsert Documents\nRead Operations\nRead operations retrieve\n; i.e. query a collection for\ndocuments. MongoDB provides the following methods to read documents from\na collection:\ndb.collection.find()\nYou can specify\nquery filters or criteria\nthat identify the documents to return.\nFor examples, see:\nQuery Documents\nQuery on Embedded/Nested Documents\nQuery an Array\nQuery an Array of Embedded Documents\nUpdate Operations\nUpdate operations modify existing\nprovides the following methods to update documents of a collection:\ndb.collection.updateOne()\ndb.collection.updateMany()\ndb.collection.replaceOne()\nIn MongoDB, update operations target a single collection. All write\noperations in MongoDB are\non the level of a single document.\nYou can specify criteria, or filters, that identify the documents to\nupdate. These\nuse the same\nsyntax as read operations.\nFor examples, see\nUpdate Documents\nDelete Operations\nDelete operations remove documents from a collection. MongoDB provides\nthe following methods to delete documents of a collection:\ndb.collection.deleteOne()\ndb.collection.deleteMany()\nIn MongoDB, delete operations target a single\nwrite operations in MongoDB are\non the level of a single document.\nYou can specify criteria, or filters, that identify the documents to\nremove. These\nuse the same\nsyntax as read operations.\nFor examples, see\nDelete Documents\nMongoDB provides the ability to perform write operations in bulk. For\ndetails, see\nBulk Write Operations\nNon-Root User Permissions",
+  "word_count": 297,
+  "key_terms": []
+}

@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Creating a commit on behalf of an organization",
+    "url": "https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-on-behalf-of-an-organization",
+    "technology": "github",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766070.6427372"
+  },
+  "content": "Creating a commit on behalf of an organization\nYou can create commits on behalf of an organization by adding a trailer to the commit's message. Commits attributed to an organization include an\non-behalf-of\nbadge on GitHub.\nIn this article\nTo create commits on behalf of an organization:\nYou must be a member of the organization indicated in the trailer.\nYou must sign the commit.\nYour commit email and the organization email must be in a domain verified by the organization.\nYour commit message must end with the commit trailer\non-behalf-of: @org <name@organization.com>\nis the organization's login.\nname@organization.com\nis in the organization's domain.\nOrganizations can use the\nname@organization.com\nemail as a public point of contact for open source efforts.\nCreating commits with an\non-behalf-of\nbadge on the command line\nType your commit message and a short, meaningful description of your changes. After your commit description, instead of a closing quotation, add two empty lines.\ngit commit -m\n\"Refactor usability tests.\nIf you're using a text editor on the command line to type your commit message, ensure there are two newlines between the end of your commit description and the\non-behalf-of:\ncommit trailer.\nOn the next line of the commit message, type\non-behalf-of: @org <name@organization.com>\n, then a closing quotation mark.\ngit commit -m\n\"Refactor usability tests.\non-behalf-of: @ORG NAME@ORGANIZATION.COM\"\nThe new commit, message, and badge will appear on GitHub the next time you push. For more information, see\nPushing commits to a remote repository\nCreating commits with an\non-behalf-of\nbadge on GitHub\nAfter you've made changes in a file using the web editor on GitHub, you can create a commit on behalf of your organization by adding an\non-behalf-of:\ntrailer to the commit's message.\nCommit changes...\nIn the \"Commit message\" field, type a short, meaningful commit message that describes the changes you made.\nIn the text box below your commit message, add\non-behalf-of: @org <name@organization.com>\nCommit changes\nPropose changes\nThe new commit, message, and badge will appear on GitHub.\nFurther reading\nViewing contributions on your profile\nTroubleshooting missing contributions\nViewing a project's contributors\nChanging a commit message",
+  "word_count": 346,
+  "key_terms": []
+}

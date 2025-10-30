@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Committing changes to your project",
+    "url": "https://docs.github.com/en/pull-requests/committing-changes-to-your-project",
+    "technology": "github",
+    "category": "tools_platforms",
+    "english_level": "B1",
+    "professional_context": "development",
+    "content_type": "technical_documentation",
+    "last_updated": "1761766067.1917334"
+  },
+  "content": "Committing changes to your project\nYou can manage code changes in a repository by grouping work into commits.\nCreating and editing commits\nAbout commits\nCreating a commit with multiple authors\nCreating a commit on behalf of an organization\nChanging a commit message\nViewing and comparing commits\nComparing commits\nDifferences between commit views\nTroubleshooting commits\nCommit exists on GitHub but not in my local clone\nWhy are my commits linked to the wrong user?\nMy commit is blocked by push protection",
+  "word_count": 80,
+  "key_terms": []
+}
